@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Samuel D. Young</title>
+    <link>/publication-type/2/</link>
+      <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 by Samuel D. Young</copyright><lastBuildDate>Tue, 11 Aug 2020 11:41:18 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_2.png</url>
+      <title>2</title>
+      <link>/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Pt Ru Alloying Study</title>
+      <link>/publication/pt-ru-alloying-study/</link>
+      <pubDate>Tue, 11 Aug 2020 11:41:18 -0400</pubDate>
+      <guid>/publication/pt-ru-alloying-study/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

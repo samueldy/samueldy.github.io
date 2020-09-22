@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ml | Samuel D. Young</title>
+    <link>/tag/ml/</link>
+      <atom:link href="/tag/ml/index.xml" rel="self" type="application/rss+xml" />
+    <description>ml</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 by Samuel D. Young</copyright><lastBuildDate>Sat, 12 Sep 2020 18:17:23 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_2.png</url>
+      <title>ml</title>
+      <link>/tag/ml/</link>
+    </image>
+    
+    <item>
+      <title>Machine Learning for Alloy Catalyst Discovery</title>
+      <link>/project/alloy-ml/</link>
+      <pubDate>Sat, 12 Sep 2020 18:17:23 -0400</pubDate>
+      <guid>/project/alloy-ml/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
