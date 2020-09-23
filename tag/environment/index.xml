@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Samuel D. Young</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
+    <title>environment | Samuel D. Young</title>
+    <link>/tag/environment/</link>
+      <atom:link href="/tag/environment/index.xml" rel="self" type="application/rss+xml" />
+    <description>environment</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 by Samuel D. Young</copyright><lastBuildDate>Mon, 21 Sep 2020 15:49:10 -0400</lastBuildDate>
     <image>
       <url>/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_2.png</url>
-      <title>Projects</title>
-      <link>/project/</link>
+      <title>environment</title>
+      <link>/tag/environment/</link>
     </image>
     
     <item>
@@ -57,34 +57,6 @@
 &lt;/ol&gt;
 &lt;/section&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Machine Learning for Alloy Catalyst Discovery</title>
-      <link>/project/alloy-ml/</link>
-      <pubDate>Sat, 12 Sep 2020 18:17:23 -0400</pubDate>
-      <guid>/project/alloy-ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PtRu Alloys as Active Nitrate Reduction Electrocatalysts</title>
-      <link>/project/pt-ru-alloying/</link>
-      <pubDate>Sat, 12 Sep 2020 17:55:16 -0400</pubDate>
-      <guid>/project/pt-ru-alloying/</guid>
-      <description>&lt;p&gt;Aqueous nitrate (NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;–&lt;/sup&gt;) ions are one of the world&amp;rsquo;s most widespread water pollutants, and present significant health and environmental concerns.
-Remediation approaches such as bacterial consumption (i.e., biological nitrate reduction) and ion-exchange (i.e., physical separation) are widespread and scalable, but have significant drawbacks.
-For example, biological reduction is infeasible for wastewater streams containing heavy metals, as these can poison the bacteria, and physical separation methods produce a concentrated nitrate brine stream which must then be stored or processed.&lt;/p&gt;
-&lt;p&gt;Electrocatalytic nitrate reduction (NO&lt;sub&gt;3&lt;/sub&gt;RR)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Rhodium Sulfides for Nitrate Reduction</title>
-      <link>/project/rhxsy-no3rr/</link>
-      <pubDate>Tue, 11 Aug 2020 15:22:24 -0400</pubDate>
-      <guid>/project/rhxsy-no3rr/</guid>
-      <description></description>
     </item>
     
   </channel>
