@@ -2,25 +2,191 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Samuel D. Young</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://samueldy.github.io/</link>
+      <atom:link href="https://samueldy.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Samuel D. Young</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 by Samuel D. Young</copyright><lastBuildDate>Mon, 21 Sep 2020 15:49:10 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_2.png</url>
+      <url>https://samueldy.github.io/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_2.png</url>
       <title>Samuel D. Young</title>
-      <link>/</link>
+      <link>https://samueldy.github.io/</link>
     </image>
     
     <item>
       <title>Electrocatalytic Nitrate Reduction</title>
-      <link>/project/no3rr/</link>
+      <link>https://samueldy.github.io/project/no3rr/</link>
       <pubDate>Mon, 21 Sep 2020 15:49:10 -0400</pubDate>
-      <guid>/project/no3rr/</guid>
+      <guid>https://samueldy.github.io/project/no3rr/</guid>
       <description>&lt;p&gt;Humans contribute over 10&lt;sup&gt;8&lt;/sup&gt; tonnes of reactive nitrogen to the environment each year, largely from fertilizer runoff and industrial processes.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; A major consequence is that aqueous nitrate (NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;–&lt;/sup&gt;) is one of the most widespread water pollutants.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;,&lt;/sup&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; Consuming nitrate has been linked to infant methemoglobinemia (&amp;ldquo;blue baby syndrome&amp;rdquo;), childbirth complications, and ovarian cancer.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;,&lt;/sup&gt;&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; High nitrate levels in lakes and oceans also cause mass death of aquatic life through eutrophication (see &lt;strong&gt;Figure 1&lt;/strong&gt;).&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; Finding an effective strategy to balance the nitrogen cycle is a National of Academy of Engineering Grand Challenge.&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt; Concentrated nitrate also exists in low-level nuclear waste,&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; and could facilitate spent fuel recovery if removed from the waste stream.&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;./denitrification-approaches-comparison.PNG&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-comparison-of-denitrification-approaches&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./denitrification-approaches-comparison.PNG&#34; data-caption=&#34;Comparison of denitrification approaches&#34;&gt;
+
+
+  &lt;img src=&#34;./denitrification-approaches-comparison.PNG&#34; alt=&#34;Comparison of denitrification approaches&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Comparison of denitrification approaches
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
 &lt;p&gt;The electrocatalytic nitrate reduction reaction (NO&lt;sub&gt;3&lt;/sub&gt;RR) is a promising strategy for aqueous denitrification. It converts nitrates to benign or valuable products, such as nitrogen gas (N&lt;sub&gt;2&lt;/sub&gt;) or ammonia (NH&lt;sub&gt;3&lt;/sub&gt;). Unlike thermocatalytic, physical, or biological denitrification, the NO&lt;sub&gt;3&lt;/sub&gt;RR does not require additional chemicals or generate a secondary waste stream.&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; This makes NO&lt;sub&gt;3&lt;/sub&gt;RR approaches desirable for modular, decentralized applications. A technoeconomic analysis of low-level nuclear waste found that using the NO&lt;sub&gt;3&lt;/sub&gt;RR to convert nitrate to NH&lt;sub&gt;3&lt;/sub&gt; and N&lt;sub&gt;2&lt;/sub&gt; gas could be cost-competitive if a sufficiently stable, active, and selective catalyst exists.&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; &lt;em&gt;However, researchers have yet to identify such an electrocatalyst.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;My research focuses on discovering active, selective, and stable electrocatalysts to promote NO&lt;sub&gt;3&lt;/sub&gt;RR. I am currently studying bimetallic alloys of earth-abundant metals as well as metal sulfides for this reaction, in collaboration with experimental researchers in the Nirala Singh lab at University of Michigan. Recent projects include an examination of how PtRu alloy composition affects catalyst activity as well as whether Rh sulfides are resistant to halide poisoning.&lt;/p&gt;
+&lt;p&gt;My research focuses on discovering active, selective, and stable electrocatalysts to promote NO&lt;sub&gt;3&lt;/sub&gt;RR. I am currently studying bimetallic alloys of earth-abundant metals as well as metal sulfides for this reaction, in collaboration with experimental researchers in the Nirala Singh lab at University of Michigan. Recent projects include an examination of how PtRu alloy composition affects catalyst activity as well as whether metal sulfides are resistant to halide poisoning.&lt;/p&gt;
+&lt;h2 id=&#34;ptru-alloys&#34;&gt;PtRu Alloys&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-basic-schematic-of-nosub3subrr-reactions-and-species&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./ptru-featured.jpg&#34; data-caption=&#34;Basic schematic of NO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;RR reactions and species&#34;&gt;
+
+
+  &lt;img src=&#34;./ptru-featured.jpg&#34; alt=&#34;Basic schematic of NO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;RR reactions and species&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Basic schematic of NO&lt;sub&gt;3&lt;/sub&gt;RR reactions and species
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;The electrocatalytic nitrate reduction reaction (NO&lt;sub&gt;3&lt;/sub&gt;RR) converts nitrate (NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;&amp;ndash;&lt;/sup&gt;) ions in water to benign or valuable products, such as nitrogen (N&lt;sub&gt;2&lt;/sub&gt;) gas, ammonia (NH&lt;sub&gt;3&lt;/sub&gt;), hydroxylamine (NH&lt;sub&gt;2&lt;/sub&gt;OH), or ammonium nitrate (NH&lt;sub&gt;4&lt;/sub&gt;NO&lt;sub&gt;3&lt;/sub&gt;).&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; The rate of conversion and selectivity towards each product depends on a complex reaction mechanism and operating conditions such as solution pH and applied cell voltage. On transition metal surfaces at moderately low (&amp;lt; 1 M) nitrate concentrations and, NO&lt;sub&gt;3&lt;/sub&gt;RR follows a reaction mechanism involving dissociation of surface-bound NO&lt;sub&gt;3&lt;/sub&gt;&lt;sub&gt;&amp;ndash;&lt;/sub&gt; to other surface-bound nitrogen intermediates, as well as surface reaction between these intermediates and surface-bound H.&lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; This mechanism appears below:&lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-simplified-nosub3subrr-mechanism-and-transition-state-intermdiates&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./mechanism-ptru.png&#34; data-caption=&#34;Simplified NO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;RR mechanism and transition state intermdiates&#34;&gt;
+
+
+  &lt;img src=&#34;./mechanism-ptru.png&#34; alt=&#34;Simplified NO&amp;lt;sub&amp;gt;3&amp;lt;/sub&amp;gt;RR mechanism and transition state intermdiates&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Simplified NO&lt;sub&gt;3&lt;/sub&gt;RR mechanism and transition state intermdiates
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;A major challenge in commercializing aqueous-phase electrocatalytic denitrification is the discovery of a sufficiently active, selective, and stable electrocatalyst. Such an electrocatalyst must also attain high activity and selectivity at relatively low (&amp;lt; 1 V) overpotentials.&lt;/p&gt;
+&lt;p&gt;Of the pure transition metals, Rh is the most active towards NO&lt;sub&gt;3&lt;/sub&gt;RR, as the proposed rate-limiting step (dissociation of NO&lt;sub&gt;3&lt;/sub&gt;* to NO&lt;sub&gt;2&lt;/sub&gt;* and O*) requires a high coverage of NO&lt;sub&gt;3&lt;/sub&gt;*, and Rh is able to bind NO&lt;sub&gt;3&lt;/sub&gt;* to its surface more strongly than other metals do. However, Rh is very expensive (~$8,300/oz) and rare, so it is not a practical choice for widespread denitrification applications.&lt;/p&gt;
+&lt;p&gt;Previous and recent studies have investigated the performance of bimetallic alloys for nitrate reduction and have demonstrated that alloy catalysts can often achieve performance that is better than either pure metal alone. This is accomplished through ligand, strain, and ensemble effects.&lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt; For example, alloying Pt and Sn helps increase the rate of the NO&lt;sub&gt;3&lt;/sub&gt;RR rate-limiting step (nitrate dissociation) and also makes the reaction more selective toward producing hydroxylamine.&lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt; Additionally, a Cu&lt;sub&gt;50&lt;/sub&gt;Ni&lt;sub&gt;50&lt;/sub&gt; alloy was shown to be six times as active as pure Cu at 0 V vs. RHE.&lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt; It was also shown that the NO&lt;sub&gt;3&lt;/sub&gt;RR activity on the CuNi alloy is a function of the alloy composition, and that there exists an optimal composition that maximizes activity.&lt;/p&gt;
+&lt;p&gt;Our previous computational work&lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt; predicted that Pt&lt;sub&gt;3&lt;/sub&gt;Ru is a highly active alloy for NO&lt;sub&gt;3&lt;/sub&gt;RR. Our research around PtRu alloys explores whether this is true, and whether NO&lt;sub&gt;3&lt;/sub&gt;RR activity depends on PtRu alloy composition, as it does for CuNi alloys. Preliminary experimental and computational studies suggest that NO&lt;sub&gt;3&lt;/sub&gt;RR activity on Pt&lt;em&gt;&lt;sub&gt;x&lt;/sub&gt;&lt;/em&gt;Ru&lt;em&gt;&lt;sub&gt;y&lt;/sub&gt;&lt;/em&gt; alloys is indeed a function of alloy composition, and is maximized at an approximate composition of Pt&lt;sub&gt;78&lt;/sub&gt;Ru&lt;sub&gt;22&lt;/sub&gt;. We are also interested in investigating&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;how PtRu alloy composition impacts the selectivity of the reaction towards one or more products,&lt;/li&gt;
+&lt;li&gt;which step in the reaction is rate-determining at a variety of alloy compositions and potentials,&lt;/li&gt;
+&lt;li&gt;the stability of PtRu alloys in acidic media during long periods of operation, and&lt;/li&gt;
+&lt;li&gt;the denitrification cost per gram of catalyst or per mole of nitrate consumed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The answers to these questions will inform catalyst design rules and reveal insight about which denitrification applications are most appropriate for PtRu alloy electrocatalysts. Our findings are also relevant to other aqueous-phase reactions beyond nitrate reduction.&lt;/p&gt;
+&lt;h2 id=&#34;metal-sulfides&#34;&gt;Metal sulfides&lt;/h2&gt;
+&lt;p&gt;One understudied aspect of heterogeneous catalyst discovery is poison resistance. Poisoning occurs when substances other than reactants compete for and/or block active sites on the catalyst surface, preventing the catalyst from carrying out the desired reaction, as shown in this figure:&lt;sup id=&#34;fnref:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-schematic-of-catalyst-poisoning&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./poisoning-example-figure.png&#34; data-caption=&#34;Schematic of catalyst poisoning&#34;&gt;
+
+
+  &lt;img src=&#34;./poisoning-example-figure.png&#34; alt=&#34;Schematic of catalyst poisoning&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Schematic of catalyst poisoning
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;In the context of electrocatalytic nitrate reduction (NO&lt;sub&gt;3&lt;/sub&gt;RR), poisoning can be addressed through upstream preprocessing. However, many catalysts can be poisoned with even trace amounts of contaminants in the reactor feed,&lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt; and upstream purification methods may not remove enough poison. Finding a catalyst that intrinsically resists poisoning is a more robust solution.&lt;/p&gt;
+&lt;p&gt;My research focuses on halide poisoning, which has been extensively studied in the experimental electrochemical literature as well as in electrochemistry applications (such as PEM fuel cells).&lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt; Halide poisoning is observed experimentally and predicted computationally for many pure metals. A DFT ab initio thermodynamics study found that Cl&lt;sup&gt;–&lt;/sup&gt; was likely to achieve surface coverages of at least 1/3 monolayer in the potential range for nitrate reduction to NH&lt;sub&gt;3&lt;/sub&gt; and N&lt;sub&gt;2&lt;/sub&gt;.&lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt; Additionally, voltammetry experiments on Pt electrodes show that even trace amounts of Cl&lt;sup&gt;&amp;ndash;&lt;/sup&gt; ions (e.g., less than 100 μM) drastically reduce current.&lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Metal sulfides (M&lt;sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;/sub&gt;S&lt;sub&gt;&lt;em&gt;y&lt;/em&gt;&lt;/sub&gt;) are a class of chalcogen compounds which have been shown to resist halide poisoning in some reactions. A mixed-metal sulfide (Co&lt;sub&gt;0.4&lt;/sub&gt;Ru&lt;sub&gt;0.6&lt;/sub&gt;S&lt;sub&gt;2&lt;/sub&gt;) exhibited hydrogen evolution reaction (HER) activity similar to that of Pt in the presence of Br&lt;sup&gt;&amp;ndash;&lt;/sup&gt;, yet maintained a stable reaction current while Pt was continuously deactivated.&lt;sup id=&#34;fnref:21&#34;&gt;&lt;a href=&#34;#fn:21&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;21&lt;/a&gt;&lt;/sup&gt; Rh sulfides (Rh&lt;sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;/sub&gt;S&lt;sub&gt;&lt;em&gt;y&lt;/em&gt;&lt;/sub&gt;) were also tested against Pt electrodes in a electrolytic cell, where Rh&lt;sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;/sub&gt;S&lt;sub&gt;&lt;em&gt;y&lt;/em&gt;&lt;/sub&gt; was found to maintain moderate HER current long after Pt was completely deactivated.&lt;sup id=&#34;fnref:22&#34;&gt;&lt;a href=&#34;#fn:22&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;22&lt;/a&gt;&lt;/sup&gt; Metal sulfides also show promise for enhancing the figures of merit for NO&lt;sub&gt;3&lt;/sub&gt;RR. An oxo-MoS&lt;sub&gt;2&lt;/sub&gt; catalyst was shown to reduce NO&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;&amp;ndash;&lt;/sup&gt; to with a selectivity of 13.5% Faradaic efficiency under neutral pH conditions, which is the highest N&lt;sub&gt;2&lt;/sub&gt; selectivity reported for a metal sulfide electrocatalyst.&lt;sup id=&#34;fnref:23&#34;&gt;&lt;a href=&#34;#fn:23&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;23&lt;/a&gt;&lt;/sup&gt; This combination of known halide poison resistance and possible selectivity preference, along with the fact that Rh is the most active transition metal for NO&lt;sub&gt;3&lt;/sub&gt;RR, motivates my current study of Rh&lt;sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;/sub&gt;S&lt;sub&gt;&lt;em&gt;y&lt;/em&gt;&lt;/sub&gt; electrocatalysts.&lt;/p&gt;
+&lt;p&gt;I am interested in computationally investigating the rate and selectivity of NO&lt;sub&gt;3&lt;/sub&gt;RR on a Rh&lt;sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;/sub&gt;S&lt;sub&gt;&lt;em&gt;y&lt;/em&gt;&lt;/sub&gt; catalyst surface models, focusing on Cl&lt;sup&gt;&amp;ndash;&lt;/sup&gt; as a model poison. As Rh&lt;sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;/sub&gt;S&lt;sub&gt;&lt;em&gt;y&lt;/em&gt;&lt;/sub&gt; catalysts have received very little study about halide poison resistance for NO&lt;sub&gt;3&lt;/sub&gt;RR in acidic media, a primary goal is to quantify the degree to which Cl&lt;sup&gt;&amp;ndash;&lt;/sup&gt; decreases the reaction rate or changes the selectivity of desirable products such as NH&lt;sub&gt;3&lt;/sub&gt; and N&lt;sub&gt;2&lt;/sub&gt;. Another important goal is to elucidate the active site for NO&lt;sub&gt;3&lt;/sub&gt;RR on Rh&lt;sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;/sub&gt;S&lt;sub&gt;&lt;em&gt;y&lt;/em&gt;&lt;/sub&gt; surface models through selective poisoning and defect experiments. These insights will help determine whether there exists a selective, active, and stable NO&lt;sub&gt;3&lt;/sub&gt;RR electrocatalyst that is also poison-resistant to one of the most common wastewater poisons. It will also inform design guidelines about how to maximize poison resistance for metal sulfide catalysts in aqueous-phase reactions beyond nitrate reduction.&lt;/p&gt;
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -54,6 +220,45 @@
 &lt;li id=&#34;fn:10&#34; role=&#34;doc-endnote&#34;&gt;
 &lt;p&gt;J.O. Bockris, J. Kim, Electrochemical treatment of low-level nuclear wastes, J. Appl. Electrochem. 27 (1997) 623&amp;ndash;634. &lt;a href=&#34;https://doi.org/10.1023/A:1018419316870&#34;&gt;https://doi.org/10.1023/A:1018419316870&lt;/a&gt;. &lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;li id=&#34;fn:11&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;M. Duca, M.T.M. Koper, Powering Denitrification: The Perspectives of Electrocatalytic Nitrate Reduction, Energy Environ. Sci. 5 (2012) 9726&amp;ndash;9742. &lt;a href=&#34;https://doi.org/10.1039/C2EE23062C&#34;&gt;https://doi.org/10.1039/C2EE23062C&lt;/a&gt; &lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:12&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;G.E. Dima, A.C.A. de Vooys, M.T.M. Koper, Electrocatalytic reduction of nitrate at low concentration on coinage and transition-metal electrodes in acid solutions, J. Electroanal. Chem. 554&amp;ndash;555 (2003) 15&amp;ndash;23. &lt;a href=&#34;https://doi.org/10.1016/S0022-0728(02)01443-2&#34;&gt;https://doi.org/10.1016/S0022-0728(02)01443-2&lt;/a&gt; &lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:13&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;J.-X. Liu, D. Richards, N. Singh, B.R. Goldsmith, Activity and Selectivity Trends in Electrocatalytic Nitrate Reduction on Transition Metals, ACS Catal. 9 (2019) 7052&amp;ndash;7064. &lt;a href=&#34;https://doi.org/10.1021/acscatal.9b02179&#34;&gt;https://doi.org/10.1021/acscatal.9b02179&lt;/a&gt; &lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:14&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;H. Li, K. Shin, G. Henkelman, Effects of ensembles, ligand, and strain on adsorbate binding to alloy surfaces, J. Chem. Phys. 149 (2018) 174705. &lt;a href=&#34;https://doi.org/10.1063/1.5053894&#34;&gt;https://doi.org/10.1063/1.5053894&lt;/a&gt; &lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:15&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;J. Yang, Y. Kwon, M. Duca, M.T.M. Koper, Combining Voltammetry and Ion Chromatography: Application to the Selective Reduction of Nitrate on Pt and PtSn Electrodes, Anal. Chem. 85 (2013) 7645&amp;ndash;7649. &lt;a href=&#34;https://doi.org/10.1021/ac401571w&#34;&gt;https://doi.org/10.1021/ac401571w&lt;/a&gt; &lt;a href=&#34;#fnref:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:16&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Y. Wang, A. Xu, Z. Wang, L. Huang, J. Li, F. Li, J. Wicks, M. Luo, D.-H. Nam, C.-S. Tan, Y. Ding, J. Wu, Y. Lum, C.-T. Dinh, D. Sinton, G. Zheng, E.H. Sargent, Enhanced nitrate-to-ammonia activity on copper-nickel alloys via tuning of intermediate adsorption, J. Am. Chem. Soc. (2020). &lt;a href=&#34;https://doi.org/10.1021/jacs.9b13347&#34;&gt;https://doi.org/10.1021/jacs.9b13347&lt;/a&gt;. &lt;a href=&#34;#fnref:16&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:17&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;X. Zhu, B. Cheng, J. Yu, W. Ho, Halogen poisoning effect of Pt-TiO&lt;sub&gt;2&lt;/sub&gt; for formaldehyde catalytic oxidation performance at room temperature, Appl. Surf. Sci. 364 (2016) 808&amp;ndash;814. &lt;a href=&#34;https://doi.org/10.1016/j.apsusc.2015.12.115&#34;&gt;https://doi.org/10.1016/j.apsusc.2015.12.115&lt;/a&gt;. &lt;a href=&#34;#fnref:17&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:18&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;F. Juarez, P. Quaino, E. Colombo, E. Santos, M.N. Jackson, W. Schmickler, Why are trace amounts of chloride so highly surface-active?, J. Electroanal. Chem. 847 (2019) 113128. &lt;a href=&#34;https://doi.org/10.1016/j.jelechem.2019.05.010&#34;&gt;https://doi.org/10.1016/j.jelechem.2019.05.010&lt;/a&gt;. &lt;a href=&#34;#fnref:18&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:19&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;F. Gossenberger, T. Roman, A. Groß, Equilibrium coverage of halides on metal electrodes, Surf. Sci. 631 (2015) 17&amp;ndash;22. &lt;a href=&#34;https://doi.org/10.1016/j.susc.2014.01.021&#34;&gt;https://doi.org/10.1016/j.susc.2014.01.021&lt;/a&gt;. &lt;a href=&#34;#fnref:19&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:20&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;G. Horányi, E.M. Rizmayer, Role of adsorption phenomena in the electrocatalytic reduction of nitric acid at a platinized platinum electrode, J. Electroanal. Chem. Interfacial Electrochem. 140 (1982) 347&amp;ndash;366. &lt;a href=&#34;https://doi.org/10.1016/0022-0728(82)85178-4&#34;&gt;https://doi.org/10.1016/0022-0728(82)85178-4&lt;/a&gt;. &lt;a href=&#34;#fnref:20&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:21&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;A. Ivanovskaya, N. Singh, R.-F. Liu, H. Kreutzer, J. Baltrusaitis, T. Van Nguyen, H. Metiu, E. McFarland, Transition Metal Sulfide Hydrogen Evolution Catalysts for Hydrobromic Acid Electrolysis, Langmuir. 29 (2013) 480&amp;ndash;492. &lt;a href=&#34;https://doi.org/10.1021/la3032489&#34;&gt;https://doi.org/10.1021/la3032489&lt;/a&gt;. &lt;a href=&#34;#fnref:21&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:22&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;N. Singh, S. Mubeen, J. Lee, H. Metiu, M. Moskovits, E.W. McFarland, Stable electrocatalysts for autonomous photoelectrolysis of hydrobromic acid using single-junction solar cells, Energy Environ. Sci. 7 (2014) 978&amp;ndash;981. &lt;a href=&#34;https://doi.org/10.1039/C3EE43709D&#34;&gt;https://doi.org/10.1039/C3EE43709D&lt;/a&gt;. &lt;a href=&#34;#fnref:22&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:23&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;D. He, Y. Li, H. Ooka, Y.K. Go, F. Jin, S.H. Kim, R. Nakamura, Selective Electrocatalytic Reduction of Nitrite to Dinitrogen Based on Decoupled Proton&amp;ndash;Electron Transfer, J. Am. Chem. Soc. 140 (2018) 2012&amp;ndash;2015. &lt;a href=&#34;https://doi.org/10.1021/jacs.7b12774&#34;&gt;https://doi.org/10.1021/jacs.7b12774&lt;/a&gt;. &lt;a href=&#34;#fnref:23&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
 </description>
@@ -61,30 +266,142 @@
     
     <item>
       <title>Machine Learning for Alloy Catalyst Discovery</title>
-      <link>/project/alloy-ml/</link>
+      <link>https://samueldy.github.io/project/alloy-ml/</link>
       <pubDate>Sat, 12 Sep 2020 18:17:23 -0400</pubDate>
-      <guid>/project/alloy-ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PtRu Alloys as Active Nitrate Reduction Electrocatalysts</title>
-      <link>/project/pt-ru-alloying/</link>
-      <pubDate>Sat, 12 Sep 2020 17:55:16 -0400</pubDate>
-      <guid>/project/pt-ru-alloying/</guid>
-      <description>&lt;p&gt;Aqueous nitrate (NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;–&lt;/sup&gt;) ions are one of the world&amp;rsquo;s most widespread water pollutants, and present significant health and environmental concerns.
-Remediation approaches such as bacterial consumption (i.e., biological nitrate reduction) and ion-exchange (i.e., physical separation) are widespread and scalable, but have significant drawbacks.
-For example, biological reduction is infeasible for wastewater streams containing heavy metals, as these can poison the bacteria, and physical separation methods produce a concentrated nitrate brine stream which must then be stored or processed.&lt;/p&gt;
-&lt;p&gt;Electrocatalytic nitrate reduction (NO&lt;sub&gt;3&lt;/sub&gt;RR)&lt;/p&gt;
+      <guid>https://samueldy.github.io/project/alloy-ml/</guid>
+      <description>&lt;p&gt;My larger vision for alloy research is to use machine learning (ML) and microkinetic knowledge to discover highly active and selective electrocatalysts that are presently unknown. Of the potentially millions of materials (such as intermetallics,&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; low- and high-entropy metal alloys,&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; metal sulfides,&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; and single atoms&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;) that might be active and selective for the nitrate reduction reaction, it is impossible to know ahead of time which of them are the most performant. Traditional evaluation of catalyst figures of merit (e.g., intuition-guided experiments or DFT calculations on a few catalysts at a time) are far too slow to screen a catalyst space of this size. However, ML promises to accelerate this process by providing ways to more cheaply evaluate a potential catalyst&amp;rsquo;s figures of merit.&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;sup&gt;,&lt;/sup&gt;&lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-comparison-of-experimental-dft-only-and-ml-assisted-pathways-for-estimating-catalyst-performance-once-trained-with-active-learning-the-ml-model-can-exploit-adsorbate-scaling-relations-bep-brønsted-evans-polanyi-relations-and-volcano-surface-calculations-to-cheaply-calculate-binding-energies-reaction-activation-barriers-and-catalyst-activity-respectively-ml-prediction-is-usually-at-least-o10sup3sup-times-faster-than-dft-prediction&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;./dft-ml-experiment-comparison.jpg&#34; data-caption=&#34;Comparison of experimental, DFT-only, and ML-assisted pathways for estimating catalyst performance. Once trained with active learning, the ML model can exploit adsorbate scaling relations, BEP (Brønsted-Evans-Polanyi) relations, and volcano surface calculations to cheaply calculate binding energies, reaction activation barriers, and catalyst activity, respectively. ML prediction is usually at least O(10&amp;lt;sup&amp;gt;3&amp;lt;/sup&amp;gt;) times faster than DFT prediction.&#34;&gt;
+
+
+  &lt;img src=&#34;./dft-ml-experiment-comparison.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Comparison of experimental, DFT-only, and ML-assisted pathways for estimating catalyst performance. Once trained with active learning, the ML model can exploit adsorbate scaling relations, BEP (Brønsted-Evans-Polanyi) relations, and volcano surface calculations to cheaply calculate binding energies, reaction activation barriers, and catalyst activity, respectively. ML prediction is usually at least O(10&lt;sup&gt;3&lt;/sup&gt;) times faster than DFT prediction.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Supervised ML learns correlations between sets of input and output training data to gain the ability to predict what output should result from a new input. My research focuses on training supervised ML models to act as surrogate DFT calculators, a scheme which can estimate binding energies approximately 10&lt;sup&gt;3&lt;/sup&gt; times faster than analogous DFT calculation. In this scheme, a supervised ML model predicts a binding energy given only the geometry and atomic identities of an adsorbed slab. If trained on enough data, such a model could screen a large catalyst space in a more reasonable amount of time by rapidly predicting whether a binding energy falls within a window known to lead to high catalyst activity. This would greatly accelerate the search for a performant catalyst.&lt;/p&gt;
+&lt;p&gt;Several software packages implement some of the features useful for constructing these models. The GASpy software package&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; automates the combinatorial calculation of potentially thousands of adsorption energies of common monodentate adsorbates across multiple facets on bielemental crystal structures. It uses the Atomic Simulation Environment&lt;sup id=&#34;fnref:8&#34;&gt;&lt;a href=&#34;#fn:8&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;8&lt;/a&gt;&lt;/sup&gt; to carry out atomic transformations and has been used to calculate CO and H binding energies on bimetallic alloys&lt;sup id=&#34;fnref:7&#34;&gt;&lt;a href=&#34;#fn:7&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;7&lt;/a&gt;&lt;/sup&gt; and, more recently, energies on Cu alloys for nitrate-to-ammonia reduction.&lt;sup id=&#34;fnref:9&#34;&gt;&lt;a href=&#34;#fn:9&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;9&lt;/a&gt;&lt;/sup&gt; The Atomate&lt;sup id=&#34;fnref:10&#34;&gt;&lt;a href=&#34;#fn:10&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;10&lt;/a&gt;&lt;/sup&gt; and Rocketsled&lt;sup id=&#34;fnref:11&#34;&gt;&lt;a href=&#34;#fn:11&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;11&lt;/a&gt;&lt;/sup&gt; packages automate many of the same tasks for workflows built on the Pymatgen&lt;sup id=&#34;fnref:12&#34;&gt;&lt;a href=&#34;#fn:12&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;12&lt;/a&gt;&lt;/sup&gt; library.&lt;/p&gt;
+&lt;p&gt;Several machine learning (ML) models have been developed to predict binding energy from the geometry and identity of the atoms of an adsorbed slab model. A number of featurization algorithms have emerged to encode this atomic geometry into translation- and rotation-invariant ML features, such as the Smooth Overlap of Atomic Positions (SOAP) representation&lt;sup id=&#34;fnref:13&#34;&gt;&lt;a href=&#34;#fn:13&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;13&lt;/a&gt;&lt;/sup&gt;, the moment tensor potential (MTP) representation&lt;sup id=&#34;fnref:14&#34;&gt;&lt;a href=&#34;#fn:14&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;14&lt;/a&gt;&lt;/sup&gt;, and the many-body tensor representation (MBTR)&lt;sup id=&#34;fnref:15&#34;&gt;&lt;a href=&#34;#fn:15&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;15&lt;/a&gt;&lt;/sup&gt;. There is also a class of exciting models called crystal graph convolutional neural networks (CGCNNs), which function by encoding information about each atom and chemical bond in a topological graph representing a bulk crystal structure. This allows the convolutional and pooling layers to extract features relevant to that crystal&lt;sup id=&#34;fnref:16&#34;&gt;&lt;a href=&#34;#fn:16&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;16&lt;/a&gt;&lt;/sup&gt;. This model was later adapted for surface catalysis by additionally encoding information about the local atomic geometry around each slab and adsorbate atom&lt;sup id=&#34;fnref:17&#34;&gt;&lt;a href=&#34;#fn:17&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;17&lt;/a&gt;&lt;/sup&gt; (see figure below) and further improved by including information about each atom&amp;rsquo;s electron configuration&lt;sup id=&#34;fnref:18&#34;&gt;&lt;a href=&#34;#fn:18&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;18&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./cgcnn-schematic.jpg&#34; alt=&#34;^CGCNN model for surface catalysis&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Active learning is another important technology relevant to catalyst ML problems. Active learning is a strategy used when a training data set is small and obtaining more training data is costly. The high cost of DFT calculations means that most DFT-based catalysis data sets are small. Active learning can simultaneously refine the accuracy of a ML model and build a training data set by strategically selecting new training data to evaluate with DFT. This approach helps minimize the number of expensive DFT calculations that must occur. The figure below illustrates pool-based sampling,&lt;sup id=&#34;fnref:19&#34;&gt;&lt;a href=&#34;#fn:19&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;19&lt;/a&gt;&lt;/sup&gt; one way of implementing active learning.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./settles-pool-based-sampling.jpg&#34; alt=&#34;^Pool-based sampling schematic&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Active learning workflows obtain new data based on an &lt;em&gt;acquisition function&lt;/em&gt;, which is an algorithmic approach for selecting data in a manner that constructs the model as cheaply as possible. One major acquisition function is the expected improvement acquisition function,&lt;sup id=&#34;fnref:20&#34;&gt;&lt;a href=&#34;#fn:20&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;20&lt;/a&gt;&lt;/sup&gt; which provides a good balance between improving model accuracy and exploring unstudied catalyst structures that may have desirable figures of merit.&lt;sup id=&#34;fnref:21&#34;&gt;&lt;a href=&#34;#fn:21&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;21&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Our insights about which acquisition functions and featurization protocols create the most accurate and generalizable surrogate DFT models will enable many more researchers in catalysis to exploit the newest advances in machine learning and bring novel, effective catalysts to market more quickly. These results could also be applied to accelerate the discovery of materials for other fields beyond catalysis, such as superconductors, thermoelectrics, and photovoltaics.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;M. Armbrüster, R. Schlögl, Y. Grin, Intermetallic compounds in heterogeneous catalysis&amp;mdash;a quickly developing field, Sci. Technol. Adv. Mater. 15 (2014) 034803. &lt;a href=&#34;https://doi.org/10.1088/1468-6996/15/3/034803&#34;&gt;https://doi.org/10.1088/1468-6996/15/3/034803&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;T.A.A. Batchelor, J.K. Pedersen, S.H. Winther, I.E. Castelli, K.W. Jacobsen, J. Rossmeisl, High-Entropy Alloys as a Discovery Platform for Electrocatalysis, Joule. 3 (2019) 834&amp;ndash;845. &lt;a href=&#34;https://doi.org/10.1016/j.joule.2018.12.015&#34;&gt;https://doi.org/10.1016/j.joule.2018.12.015&lt;/a&gt;. &lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;A. Ivanovskaya, N. Singh, R.-F. Liu, H. Kreutzer, J. Baltrusaitis, T. Van Nguyen, H. Metiu, E. McFarland, Transition Metal Sulfide Hydrogen Evolution Catalysts for Hydrobromic Acid Electrolysis, Langmuir. 29 (2013) 480&amp;ndash;492. &lt;a href=&#34;https://doi.org/10.1021/la3032489&#34;&gt;https://doi.org/10.1021/la3032489&lt;/a&gt;. &lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;J. Shan, M. Li, L.F. Allard, S. Lee, M. Flytzani-Stephanopoulos, Mild oxidation of methane to methanol or acetic acid on supported isolated rhodium catalysts, Nature. 551 (2017) 605&amp;ndash;608. &lt;a href=&#34;https://doi.org/10.1038/nature24640&#34;&gt;https://doi.org/10.1038/nature24640&lt;/a&gt;. &lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;B.R. Goldsmith, J. Esterhuizen, J.-X. Liu, C.J. Bartel, C. Sutton, Machine learning for heterogeneous catalyst design and discovery, AIChE J. 64 (2018) 2311&amp;ndash;2323. &lt;a href=&#34;https://doi.org/10.1002/aic.16198&#34;&gt;https://doi.org/10.1002/aic.16198&lt;/a&gt;. &lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Z.W. Ulissi, A.J. Medford, T. Bligaard, J.K. Nørskov, To address surface reaction network complexity using scaling relations machine learning and DFT calculations, Nat. Commun. 8 (2017) 14621. &lt;a href=&#34;https://doi.org/10.1038/ncomms14621&#34;&gt;https://doi.org/10.1038/ncomms14621&lt;/a&gt;. &lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:7&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;K. Tran, Z.W. Ulissi, Active learning across intermetallics to guide discovery of electrocatalysts for CO&lt;sub&gt;2&lt;/sub&gt; reduction and H&lt;sub&gt;2&lt;/sub&gt; evolution, Nat. Catal. 1 (2018) 696&amp;ndash;703. &lt;a href=&#34;https://doi.org/10.1038/s41929-018-0142-1&#34;&gt;https://doi.org/10.1038/s41929-018-0142-1&lt;/a&gt;. &lt;a href=&#34;#fnref:7&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:8&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;A.H. Larsen, J.J. Mortensen, J. Blomqvist, I.E. Castelli, R. Christensen, M. Du\lak, J. Friis, M.N. Groves, B. Hammer, C. Hargus, E.D. Hermes, P.C. Jennings, P.B. Jensen, J. Kermode, J.R. Kitchin, E.L. Kolsbjerg, J. Kubal, K. Kaasbjerg, S. Lysgaard, J.B. Maronsson, T. Maxson, T. Olsen, L. Pastewka, A. Peterson, C. Rostgaard, J. Schiøtz, O. Schütt, M. Strange, K.S. Thygesen, T. Vegge, L. Vilhelmsen, M. Walter, Z. Zeng, K.W. Jacobsen, The atomic simulation environment&amp;mdash;a Python library for working with atoms, J. Phys. Condens. Matter. 29 (2017) 273002. &lt;a href=&#34;https://doi.org/10.1088/1361-648X/aa680e&#34;&gt;https://doi.org/10.1088/1361-648X/aa680e&lt;/a&gt;. &lt;a href=&#34;#fnref:8&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:9&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;Y. Wang, A. Xu, Z. Wang, L. Huang, J. Li, F. Li, J. Wicks, M. Luo, D.-H. Nam, C.-S. Tan, Y. Ding, J. Wu, Y. Lum, C.-T. Dinh, D. Sinton, G. Zheng, E.H. Sargent, Enhanced nitrate-to-ammonia activity on copper-nickel alloys via tuning of intermediate adsorption, J. Am. Chem. Soc. (2020). &lt;a href=&#34;https://doi.org/10.1021/jacs.9b13347&#34;&gt;https://doi.org/10.1021/jacs.9b13347&lt;/a&gt;. &lt;a href=&#34;#fnref:9&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:10&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;K. Mathew, J.H. Montoya, A. Faghaninia, S. Dwarakanath, M. Aykol, H. Tang, I. Chu, T. Smidt, B. Bocklund, M. Horton, J. Dagdelen, B. Wood, Z.-K. Liu, J. Neaton, S.P. Ong, K. Persson, A. Jain, Atomate: A high-level interface to generate, execute, and analyze computational materials science workflows, Comput. Mater. Sci. 139 (2017) 140&amp;ndash;152. &lt;a href=&#34;https://doi.org/10.1016/j.commatsci.2017.07.030&#34;&gt;https://doi.org/10.1016/j.commatsci.2017.07.030&lt;/a&gt;. &lt;a href=&#34;#fnref:10&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:11&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;A. Dunn, J. Brenneck, A. Jain, Rocketsled: a software library for optimizing high-throughput computational searches, J. Phys. Mater. 2 (2019) 034002. &lt;a href=&#34;https://doi.org/10.1088/2515-7639/ab0c3d&#34;&gt;https://doi.org/10.1088/2515-7639/ab0c3d&lt;/a&gt;. &lt;a href=&#34;#fnref:11&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:12&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;S.P. Ong, W.D. Richards, A. Jain, G. Hautier, M. Kocher, S. Cholia, D. Gunter, V.L. Chevrier, K.A. Persson, G. Ceder, Python Materials Genomics (pymatgen): A robust, open-source python library for materials analysis, Comput. Mater. Sci. 68 (2013) 314&amp;ndash;319. &lt;a href=&#34;https://doi.org/10.1016/j.commatsci.2012.10.028&#34;&gt;https://doi.org/10.1016/j.commatsci.2012.10.028&lt;/a&gt;. &lt;a href=&#34;#fnref:12&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:13&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;A.P. Bartók, R. Kondor, G. Csányi, On representing chemical environments, Phys. Rev. B. 87 (2013) 184115. &lt;a href=&#34;https://doi.org/10.1103/PhysRevB.87.184115&#34;&gt;https://doi.org/10.1103/PhysRevB.87.184115&lt;/a&gt;. &lt;a href=&#34;#fnref:13&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:14&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;A.V. Shapeev, Moment Tensor Potentials: A Class of Systematically Improvable Interatomic Potentials, Multiscale Model. Simul. 14 (2016) 1153&amp;ndash;1173. &lt;a href=&#34;https://doi.org/10.1137/15M1054183&#34;&gt;https://doi.org/10.1137/15M1054183&lt;/a&gt;. &lt;a href=&#34;#fnref:14&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:15&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;H. Huo, M. Rupp, Unified Representation of Molecules and Crystals for Machine Learning, (2018). &lt;a href=&#34;http://arxiv.org/abs/1704.06439&#34;&gt;http://arxiv.org/abs/1704.06439&lt;/a&gt; (accessed September 2, 2020). &lt;a href=&#34;#fnref:15&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:16&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;T. Xie, J.C. Grossman, Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties, Phys. Rev. Lett. 120 (2018) 145301. &lt;a href=&#34;https://doi.org/10.1103/PhysRevLett.120.145301&#34;&gt;https://doi.org/10.1103/PhysRevLett.120.145301&lt;/a&gt;. &lt;a href=&#34;#fnref:16&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:17&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;S. Back, J. Yoon, N. Tian, W. Zhong, K. Tran, Z.W. Ulissi, Convolutional Neural Network of Atomic Surface Structures To Predict Binding Energies for High-Throughput Screening of Catalysts, J. Phys. Chem. Lett. 10 (2019) 4401&amp;ndash;4408. &lt;a href=&#34;https://doi.org/10.1021/acs.jpclett.9b01428&#34;&gt;https://doi.org/10.1021/acs.jpclett.9b01428&lt;/a&gt;. &lt;a href=&#34;#fnref:17&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:18&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;M. Karamad, R. Magar, Y. Shi, S. Siahrostami, I.D. Gates, A.B. Farimani, Orbital Graph Convolutional Neural Network for Material Property Prediction, (2020). &lt;a href=&#34;http://arxiv.org/abs/2008.06415&#34;&gt;http://arxiv.org/abs/2008.06415&lt;/a&gt; (accessed September 7, 2020). &lt;a href=&#34;#fnref:18&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:19&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;B. Settles, Active Learning, Morgan &amp;amp; Claypool Publishers, Carnegie Mellon University, 2012. &lt;a href=&#34;http://www.morganclaypool.com/doi/abs/10.2200/S00429ED1V01Y201207AIM018&#34;&gt;http://www.morganclaypool.com/doi/abs/10.2200/S00429ED1V01Y201207AIM018&lt;/a&gt; (accessed May 13, 2019). &lt;a href=&#34;#fnref:19&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:20&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;H.J. Kushner, A New Method of Locating the Maximum Point of an Arbitrary Multipeak Curve in the Presence of Noise, J. Basic Eng. 86 (1964) 97&amp;ndash;106. &lt;a href=&#34;https://doi.org/10.1115/1.3653121&#34;&gt;https://doi.org/10.1115/1.3653121&lt;/a&gt;. &lt;a href=&#34;#fnref:20&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:21&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;T. Lookman, P.V. Balachandran, D. Xue, R. Yuan, Active learning in materials science with emphasis on adaptive sampling using uncertainties for targeted design, Npj Comput. Mater. 5 (2019). &lt;a href=&#34;https://doi.org/10.1038/s41524-019-0153-8&#34;&gt;https://doi.org/10.1038/s41524-019-0153-8&lt;/a&gt;. &lt;a href=&#34;#fnref:21&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </description>
     </item>
     
     <item>
-      <title>Rhodium Sulfides for Nitrate Reduction</title>
-      <link>/project/rhxsy-no3rr/</link>
-      <pubDate>Tue, 11 Aug 2020 15:22:24 -0400</pubDate>
-      <guid>/project/rhxsy-no3rr/</guid>
+      <title>Increasing Electrocatalytic Nitrate Reduction Activity by Controlling Adsorption through PtRu Alloying</title>
+      <link>https://samueldy.github.io/publication/pt-ru-alloying-study/</link>
+      <pubDate>Tue, 11 Aug 2020 11:41:18 -0400</pubDate>
+      <guid>https://samueldy.github.io/publication/pt-ru-alloying-study/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Conductivity and Microstructure of Combinatorially Sputter-Deposited Ta–Ti–Al Nitride Thin Films</title>
+      <link>https://samueldy.github.io/publication/combi-nitrides/</link>
+      <pubDate>Wed, 03 Jun 2015 00:28:32 -0400</pubDate>
+      <guid>https://samueldy.github.io/publication/combi-nitrides/</guid>
+      <description>&lt;p&gt;Supporting information available 
+&lt;a href=&#34;https://pubs.acs.org/doi/suppl/10.1021/cm504599s/suppl_file/cm504599s_si_001.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

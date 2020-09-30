@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Samuel D. Young</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://samueldy.github.io/tags/</link>
+      <atom:link href="https://samueldy.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 by Samuel D. Young</copyright><lastBuildDate>Mon, 21 Sep 2020 15:49:10 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_2.png</url>
+      <url>https://samueldy.github.io/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_2.png</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>https://samueldy.github.io/tags/</link>
     </image>
     
   </channel>

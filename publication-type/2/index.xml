@@ -2,22 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Samuel D. Young</title>
-    <link>/publication-type/2/</link>
-      <atom:link href="/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://samueldy.github.io/publication-type/2/</link>
+      <atom:link href="https://samueldy.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 by Samuel D. Young</copyright><lastBuildDate>Tue, 11 Aug 2020 11:41:18 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 by Samuel D. Young</copyright><lastBuildDate>Wed, 03 Jun 2015 00:28:32 -0400</lastBuildDate>
     <image>
-      <url>/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_2.png</url>
+      <url>https://samueldy.github.io/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
-      <link>/publication-type/2/</link>
+      <link>https://samueldy.github.io/publication-type/2/</link>
     </image>
     
     <item>
-      <title>Pt Ru Alloying Study</title>
-      <link>/publication/pt-ru-alloying-study/</link>
-      <pubDate>Tue, 11 Aug 2020 11:41:18 -0400</pubDate>
-      <guid>/publication/pt-ru-alloying-study/</guid>
-      <description></description>
+      <title>Conductivity and Microstructure of Combinatorially Sputter-Deposited Ta–Ti–Al Nitride Thin Films</title>
+      <link>https://samueldy.github.io/publication/combi-nitrides/</link>
+      <pubDate>Wed, 03 Jun 2015 00:28:32 -0400</pubDate>
+      <guid>https://samueldy.github.io/publication/combi-nitrides/</guid>
+      <description>&lt;p&gt;Supporting information available 
+&lt;a href=&#34;https://pubs.acs.org/doi/suppl/10.1021/cm504599s/suppl_file/cm504599s_si_001.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
