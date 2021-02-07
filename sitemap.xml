@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://samueldy.github.io/categories/</loc>
+    <lastmod>2020-09-21T15:49:10-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://samueldy.github.io/tag/environment/</loc>
     <lastmod>2020-09-21T15:49:10-04:00</lastmod>
   </url>
@@ -48,12 +53,17 @@
   </url>
   
   <url>
+    <loc>https://samueldy.github.io/category/umich/</loc>
+    <lastmod>2020-09-21T15:49:10-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://samueldy.github.io/tag/ml/</loc>
     <lastmod>2020-09-12T18:17:23-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://samueldy.github.io/publication-type/3/</loc>
+    <loc>https://samueldy.github.io/publication-type/2/</loc>
     <lastmod>2020-08-11T11:41:18-04:00</lastmod>
   </url>
   
@@ -93,11 +103,6 @@
   </url>
   
   <url>
-    <loc>https://samueldy.github.io/publication-type/2/</loc>
-    <lastmod>2015-06-03T00:28:32-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://samueldy.github.io/author/abigail-r.-van-wassen/</loc>
     <lastmod>2015-06-03T00:28:32-04:00</lastmod>
   </url>
@@ -109,11 +114,6 @@
   
   <url>
     <loc>https://samueldy.github.io/tag/catalyst-supports/</loc>
-    <lastmod>2015-06-03T00:28:32-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://samueldy.github.io/categories/</loc>
     <lastmod>2015-06-03T00:28:32-04:00</lastmod>
   </url>
   
