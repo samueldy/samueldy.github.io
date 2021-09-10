@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Danielle Richards | Samuel D. Young</title>
+    <link>https://samueldy.github.io/author/danielle-richards/</link>
+      <atom:link href="https://samueldy.github.io/author/danielle-richards/index.xml" rel="self" type="application/rss+xml" />
+    <description>Danielle Richards</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 by Samuel D. Young</copyright><lastBuildDate>Thu, 26 Aug 2021 15:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://samueldy.github.io/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_3.png</url>
+      <title>Danielle Richards</title>
+      <link>https://samueldy.github.io/author/danielle-richards/</link>
+    </image>
+    
+    <item>
+      <title>Rhodium Sulfide Electrocatalysts for Electrocatalytic Nitrate Reduction</title>
+      <link>https://samueldy.github.io/talk/acs-fall-2021/</link>
+      <pubDate>Thu, 26 Aug 2021 15:00:00 -0400</pubDate>
+      <guid>https://samueldy.github.io/talk/acs-fall-2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

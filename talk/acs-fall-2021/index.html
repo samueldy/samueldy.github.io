@@ -1,0 +1,1388 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Samuel D. Young">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Chloride poisoning of catalysts is a serious and largely understudied issue for the electrocatalytic reduction of aqueous nitrate (NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;−&lt;/sup&gt;). Without poison-resistant electrocatalysts, nitrate reduction processes require increased capital cost for upstream removal of poisons. Here we study electrocatalytic activity of rhodium sulfide supported on carbon (Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt;/C) for NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;−&lt;/sup&gt; reduction and compare it against Pt/C and Rh/C in the presence of chloride. We hypothesized that Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt;/C would combine the high nitrate reduction activity of Rh with the halide resistance observed for other reactions, such as hydrogen evolution.
+Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt;/C has a steady-state nitrate reduction current density (−0.12 mA cm−2) at 0.1 V vs. RHE and pH 0 with 1 M nitrate that is five times higher than Rh/C (the most active pure metal electrocatalyst) and two orders of magnitude higher than Pt/C. Current densities are decreased by 37% for Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt;/C, 62% for Rh/C, and 40% for Pt/C at 0.1 V vs. RHE in the presence of chloride. Decreased nitrate reduction activity for Pt, Rh, and Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt; is due to the competitive adsorption of chloride and nitrate on the surface. Density functional theory (DFT) modeling predicts that chloride poisoning persistently inhibits nitrate reduction on metals due to linear adsorbate scaling relations between nitrate and chloride.
+DFT calculations and microkinetic modeling of our experimental measurements predict that nitrate converts to nitrite via an H-assisted dissociation mechanism. Pristine Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt; terraces are predicted to be inactive toward nitrate reduction. In contrast, sulfur vacancies in Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt; terraces are active for nitrate reduction, but also bind chloride strongly. Thus, sulfur-defected Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt; surfaces rationalize the experimentally observed high activity but moderate chloride poison resistance of Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt;/C for nitrate reduction. Our work highlights metal sulfides as a material class that helps mediate the effects of chloride poisoning and provides design guidelines for the discovery and engineering of other poison-resistant electrocatalysts.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://samueldy.github.io/talk/acs-fall-2021/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#5697E1">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,700%7CFira+Code&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://samueldy.github.io/talk/acs-fall-2021/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Samuel D. Young">
+  <meta property="og:url" content="https://samueldy.github.io/talk/acs-fall-2021/">
+  <meta property="og:title" content="Rhodium Sulfide Electrocatalysts for Electrocatalytic Nitrate Reduction | Samuel D. Young">
+  <meta property="og:description" content="Chloride poisoning of catalysts is a serious and largely understudied issue for the electrocatalytic reduction of aqueous nitrate (NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;−&lt;/sup&gt;). Without poison-resistant electrocatalysts, nitrate reduction processes require increased capital cost for upstream removal of poisons. Here we study electrocatalytic activity of rhodium sulfide supported on carbon (Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt;/C) for NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;−&lt;/sup&gt; reduction and compare it against Pt/C and Rh/C in the presence of chloride. We hypothesized that Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt;/C would combine the high nitrate reduction activity of Rh with the halide resistance observed for other reactions, such as hydrogen evolution.
+Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt;/C has a steady-state nitrate reduction current density (−0.12 mA cm−2) at 0.1 V vs. RHE and pH 0 with 1 M nitrate that is five times higher than Rh/C (the most active pure metal electrocatalyst) and two orders of magnitude higher than Pt/C. Current densities are decreased by 37% for Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt;/C, 62% for Rh/C, and 40% for Pt/C at 0.1 V vs. RHE in the presence of chloride. Decreased nitrate reduction activity for Pt, Rh, and Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt; is due to the competitive adsorption of chloride and nitrate on the surface. Density functional theory (DFT) modeling predicts that chloride poisoning persistently inhibits nitrate reduction on metals due to linear adsorbate scaling relations between nitrate and chloride.
+DFT calculations and microkinetic modeling of our experimental measurements predict that nitrate converts to nitrite via an H-assisted dissociation mechanism. Pristine Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt; terraces are predicted to be inactive toward nitrate reduction. In contrast, sulfur vacancies in Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt; terraces are active for nitrate reduction, but also bind chloride strongly. Thus, sulfur-defected Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt; surfaces rationalize the experimentally observed high activity but moderate chloride poison resistance of Rh&lt;sub&gt;x&lt;/sub&gt;S&lt;sub&gt;y&lt;/sub&gt;/C for nitrate reduction. Our work highlights metal sulfides as a material class that helps mediate the effects of chloride poisoning and provides design guidelines for the discovery and engineering of other poison-resistant electrocatalysts."><meta property="og:image" content="https://samueldy.github.io/talk/acs-fall-2021/featured.png">
+  <meta property="twitter:image" content="https://samueldy.github.io/talk/acs-fall-2021/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2021-09-10T15:57:25-04:00">
+    
+    <meta property="article:modified_time" content="2021-08-26T15:00:00-04:00">
+  
+
+  
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://samueldy.github.io/talk/acs-fall-2021/"
+  },
+  "name": "Rhodium Sulfide Electrocatalysts for Electrocatalytic Nitrate Reduction",
+  
+  "location": {
+    "@type": "Place",
+    "name": "Virtual",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "",
+      "postalCode": "",
+      "addressRegion": "",
+      "addressCountry": ""
+    }
+    
+  },
+  
+  
+  "image": [
+    "https://samueldy.github.io/talk/acs-fall-2021/featured.png"
+  ],
+  
+  "startDate": "2021-08-26T15:00:00-04:00",
+  
+  "endDate": "2021-08-26T15:20:00-04:00",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Danielle Richards"
+  },
+  
+  "description": "Chloride poisoning of catalysts is a serious and largely understudied issue for the electrocatalytic reduction of aqueous nitrate (NO\u003csub\u003e3\u003c/sub\u003e\u003csup\u003e−\u003c/sup\u003e). Without poison-resistant electrocatalysts, nitrate reduction processes require increased capital cost for upstream removal of poisons. Here we study electrocatalytic activity of rhodium sulfide supported on carbon (Rh\u003csub\u003ex\u003c/sub\u003eS\u003csub\u003ey\u003c/sub\u003e/C) for NO\u003csub\u003e3\u003c/sub\u003e\u003csup\u003e−\u003c/sup\u003e reduction and compare it against Pt/C and Rh/C in the presence of chloride. We hypothesized that Rh\u003csub\u003ex\u003c/sub\u003eS\u003csub\u003ey\u003c/sub\u003e/C would combine the high nitrate reduction activity of Rh with the halide resistance observed for other reactions, such as hydrogen evolution.\nRh\u003csub\u003ex\u003c/sub\u003eS\u003csub\u003ey\u003c/sub\u003e/C has a steady-state nitrate reduction current density (−0.12 mA cm−2) at 0.1 V vs. RHE and pH 0 with 1 M nitrate that is five times higher than Rh/C (the most active pure metal electrocatalyst) and two orders of magnitude higher than Pt/C. Current densities are decreased by 37% for Rh\u003csub\u003ex\u003c/sub\u003eS\u003csub\u003ey\u003c/sub\u003e/C, 62% for Rh/C, and 40% for Pt/C at 0.1 V vs. RHE in the presence of chloride. Decreased nitrate reduction activity for Pt, Rh, and Rh\u003csub\u003ex\u003c/sub\u003eS\u003csub\u003ey\u003c/sub\u003e is due to the competitive adsorption of chloride and nitrate on the surface. Density functional theory (DFT) modeling predicts that chloride poisoning persistently inhibits nitrate reduction on metals due to linear adsorbate scaling relations between nitrate and chloride.\nDFT calculations and microkinetic modeling of our experimental measurements predict that nitrate converts to nitrite via an H-assisted dissociation mechanism. Pristine Rh\u003csub\u003ex\u003c/sub\u003eS\u003csub\u003ey\u003c/sub\u003e terraces are predicted to be inactive toward nitrate reduction. In contrast, sulfur vacancies in Rh\u003csub\u003ex\u003c/sub\u003eS\u003csub\u003ey\u003c/sub\u003e terraces are active for nitrate reduction, but also bind chloride strongly. Thus, sulfur-defected Rh\u003csub\u003ex\u003c/sub\u003eS\u003csub\u003ey\u003c/sub\u003e surfaces rationalize the experimentally observed high activity but moderate chloride poison resistance of Rh\u003csub\u003ex\u003c/sub\u003eS\u003csub\u003ey\u003c/sub\u003e/C for nitrate reduction. Our work highlights metal sulfides as a material class that helps mediate the effects of chloride poisoning and provides design guidelines for the discovery and engineering of other poison-resistant electrocatalysts."
+}
+</script>
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Rhodium Sulfide Electrocatalysts for Electrocatalytic Nitrate Reduction | Samuel D. Young</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+    <script>window.staDarkLightChooser = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Samuel D. Young</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Samuel D. Young</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#skills"><span>Skills</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/samuel-d-young-cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Rhodium Sulfide Electrocatalysts for Electrocatalytic Nitrate Reduction</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span >Danielle Richards</span>, <span ><a href="/author/samuel-d.-young/">Samuel D. Young</a></span>, <span >Nirala Singh</span>, <span >Bryan Goldsmith</span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/no3rr/">
+    Project
+  </a>
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="/talk/acs-fall-2021/samueldy-sulfides-acs-fall-meeting_26-aug-2021-cropped.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 552px; max-height: 332px;">
+  <div style="position: relative">
+    <img src="/talk/acs-fall-2021/featured.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract">Chloride poisoning of catalysts is a serious and largely understudied issue for the electrocatalytic reduction of aqueous nitrate (NO<sub>3</sub><sup>−</sup>). Without poison-resistant electrocatalysts, nitrate reduction processes require increased capital cost for upstream removal of poisons. Here we study electrocatalytic activity of rhodium sulfide supported on carbon (Rh<sub>x</sub>S<sub>y</sub>/C) for NO<sub>3</sub><sup>−</sup> reduction and compare it against Pt/C and Rh/C in the presence of chloride. We hypothesized that Rh<sub>x</sub>S<sub>y</sub>/C would combine the high nitrate reduction activity of Rh with the halide resistance observed for other reactions, such as hydrogen evolution.
+Rh<sub>x</sub>S<sub>y</sub>/C has a steady-state nitrate reduction current density (−0.12 mA cm−2) at 0.1 V vs. RHE and pH 0 with 1 M nitrate that is five times higher than Rh/C (the most active pure metal electrocatalyst) and two orders of magnitude higher than Pt/C. Current densities are decreased by 37% for Rh<sub>x</sub>S<sub>y</sub>/C, 62% for Rh/C, and 40% for Pt/C at 0.1 V vs. RHE in the presence of chloride. Decreased nitrate reduction activity for Pt, Rh, and Rh<sub>x</sub>S<sub>y</sub> is due to the competitive adsorption of chloride and nitrate on the surface. Density functional theory (DFT) modeling predicts that chloride poisoning persistently inhibits nitrate reduction on metals due to linear adsorbate scaling relations between nitrate and chloride.
+DFT calculations and microkinetic modeling of our experimental measurements predict that nitrate converts to nitrite via an H-assisted dissociation mechanism. Pristine Rh<sub>x</sub>S<sub>y</sub> terraces are predicted to be inactive toward nitrate reduction. In contrast, sulfur vacancies in Rh<sub>x</sub>S<sub>y</sub> terraces are active for nitrate reduction, but also bind chloride strongly. Thus, sulfur-defected Rh<sub>x</sub>S<sub>y</sub> surfaces rationalize the experimentally observed high activity but moderate chloride poison resistance of Rh<sub>x</sub>S<sub>y</sub>/C for nitrate reduction. Our work highlights metal sulfides as a material class that helps mediate the effects of chloride poisoning and provides design guidelines for the discovery and engineering of other poison-resistant electrocatalysts.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            26 Aug 2021 3:00 PM &mdash; 3:20 PM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://acs.digitellinc.com/acs/live/21/page/411" target="_blank" rel="noopener">
+            ACS Fall 2021 Fall Meeting
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">Virtual</div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9"></div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://samueldy.github.io/talk/acs-fall-2021/&amp;text=Rhodium%20Sulfide%20Electrocatalysts%20for%20Electrocatalytic%20Nitrate%20Reduction" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://samueldy.github.io/talk/acs-fall-2021/&amp;t=Rhodium%20Sulfide%20Electrocatalysts%20for%20Electrocatalytic%20Nitrate%20Reduction" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Rhodium%20Sulfide%20Electrocatalysts%20for%20Electrocatalytic%20Nitrate%20Reduction&amp;body=https://samueldy.github.io/talk/acs-fall-2021/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://samueldy.github.io/talk/acs-fall-2021/&amp;title=Rhodium%20Sulfide%20Electrocatalysts%20for%20Electrocatalytic%20Nitrate%20Reduction" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Rhodium%20Sulfide%20Electrocatalysts%20for%20Electrocatalytic%20Nitrate%20Reduction%20https://samueldy.github.io/talk/acs-fall-2021/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://samueldy.github.io/talk/acs-fall-2021/&amp;title=Rhodium%20Sulfide%20Electrocatalysts%20for%20Electrocatalytic%20Nitrate%20Reduction" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/samuel-d.-young/avatar_hu0e07341361ca2b1a6f98fa536fbca46f_81344_270x270_fill_q90_lanczos_center.jpg" alt="Samuel D. Young">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://samueldy.github.io/">Samuel D. Young</a></h5>
+        <h6 class="card-subtitle">Graduate Student Researcher, Graduate Student Instructor</h6>
+        <p class="card-text">My research interests include computational catalysis, nitrogen chemistry, and machine learning for environmental science.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:samueldy@umich.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/samueldy" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/samuel-d-young-cv.pdf" >
+        <i class="fas fa-file-alt"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-4901-4107" target="_blank" rel="noopener">
+        <i class="fab fa-orcid"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/talk/acs-spring-2021/">Platinum-Ruthenium Alloys as Electrocatalysts for Efficient Aqueous Nitrate Reduction</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.f6ecf7692215f2bc4850b72c8176bfa2.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2020 by Samuel D. Young
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
