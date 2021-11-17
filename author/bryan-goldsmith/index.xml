@@ -5,12 +5,21 @@
     <link>https://samueldy.github.io/author/bryan-goldsmith/</link>
       <atom:link href="https://samueldy.github.io/author/bryan-goldsmith/index.xml" rel="self" type="application/rss+xml" />
     <description>Bryan Goldsmith</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 by Samuel D. Young</copyright><lastBuildDate>Thu, 26 Aug 2021 15:00:00 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 by Samuel D. Young</copyright><lastBuildDate>Tue, 16 Nov 2021 16:30:00 -0500</lastBuildDate>
     <image>
       <url>https://samueldy.github.io/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_3.png</url>
       <title>Bryan Goldsmith</title>
       <link>https://samueldy.github.io/author/bryan-goldsmith/</link>
     </image>
+    
+    <item>
+      <title>Platinum-Ruthenium Alloys As Electrocatalysts for Efficient Aqueous Nitrate Reduction</title>
+      <link>https://samueldy.github.io/talk/aiche-2021/</link>
+      <pubDate>Tue, 16 Nov 2021 16:30:00 -0500</pubDate>
+      <guid>https://samueldy.github.io/talk/aiche-2021/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;2021-11-16-20-42-14.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Rhodium Sulfide Electrocatalysts for Electrocatalytic Nitrate Reduction</title>
