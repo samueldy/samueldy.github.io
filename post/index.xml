@@ -5,9 +5,9 @@
     <link>https://samueldy.github.io/post/</link>
       <atom:link href="https://samueldy.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 by Samuel D. Young</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://samueldy.github.io/images/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_3.png</url>
+      <url>https://samueldy.github.io/media/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://samueldy.github.io/post/</link>
     </image>
