@@ -5,12 +5,28 @@
     <link>https://samueldy.github.io/event/</link>
       <atom:link href="https://samueldy.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Nov 2021 16:30:00 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Nov 2022 09:12:00 -0700</lastBuildDate>
     <image>
       <url>https://samueldy.github.io/media/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://samueldy.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>AIChE 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides</title>
+      <link>https://samueldy.github.io/talk/aiche-2022-thermodynamic-stability-and-anion-ordering-in-abo2n-and-abon2-perovskite-oxynitrides/</link>
+      <pubDate>Fri, 18 Nov 2022 09:12:00 -0700</pubDate>
+      <guid>https://samueldy.github.io/talk/aiche-2022-thermodynamic-stability-and-anion-ordering-in-abo2n-and-abon2-perovskite-oxynitrides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACS Fall 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides</title>
+      <link>https://samueldy.github.io/talk/acs-fall-2022-thermodynamic-stability-and-anion-ordering-in-abo2n-and-abon2-perovskite-oxynitrides/</link>
+      <pubDate>Tue, 23 Aug 2022 10:40:00 -0500</pubDate>
+      <guid>https://samueldy.github.io/talk/acs-fall-2022-thermodynamic-stability-and-anion-ordering-in-abo2n-and-abon2-perovskite-oxynitrides/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AIChE 2021: Platinum-Ruthenium Alloys As Electrocatalysts for Efficient Aqueous Nitrate Reduction</title>
