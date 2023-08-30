@@ -5,12 +5,20 @@
     <link>https://samueldy.github.io/event/</link>
       <atom:link href="https://samueldy.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Nov 2022 09:12:00 -0700</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Aug 2023 09:00:00 -0400</lastBuildDate>
     <image>
       <url>https://samueldy.github.io/media/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://samueldy.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Oral Dissertation Defense</title>
+      <link>https://samueldy.github.io/talk/oral-dissertation-defense/</link>
+      <pubDate>Mon, 07 Aug 2023 09:00:00 -0400</pubDate>
+      <guid>https://samueldy.github.io/talk/oral-dissertation-defense/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AIChE 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides</title>

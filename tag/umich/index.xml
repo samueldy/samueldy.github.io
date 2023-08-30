@@ -5,12 +5,34 @@
     <link>https://samueldy.github.io/tag/umich/</link>
       <atom:link href="https://samueldy.github.io/tag/umich/index.xml" rel="self" type="application/rss+xml" />
     <description>umich</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Jul 2023 00:00:00 -0400</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Aug 2023 10:23:24 -0400</lastBuildDate>
     <image>
       <url>https://samueldy.github.io/media/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_3.png</url>
       <title>umich</title>
       <link>https://samueldy.github.io/tag/umich/</link>
     </image>
+    
+    <item>
+      <title>Written Dissertation</title>
+      <link>https://samueldy.github.io/publication/written-dissertation/</link>
+      <pubDate>Sun, 27 Aug 2023 10:23:24 -0400</pubDate>
+      <guid>https://samueldy.github.io/publication/written-dissertation/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Humans contribute more fixed nitrogen than can be reduced naturally. Understanding nitrogen chemistry is essential to balancing the global nitrogen cycle. An imbalanced nitrogen cycle raises levels of nitrate (NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;–&lt;/sup&gt;) in water. Nitrate-laden water is linked to infant methemoglobinemia and ovarian cancer in humans, and to eutrophication in water reservoirs. To denitrify water, we propose using the electrocatalytic nitrate reduction reaction (NO&lt;sub&gt;3&lt;/sub&gt;RR). NO&lt;sub&gt;3&lt;/sub&gt;RR sustainably removes nitrate from water and generates benign or value-added products, such as NH&lt;sub&gt;3&lt;/sub&gt; or N&lt;sub&gt;2&lt;/sub&gt;. However, understanding the interconversion of NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;–&lt;/sup&gt;, NH&lt;sub&gt;3&lt;/sub&gt;, and N&lt;sub&gt;2&lt;/sub&gt; and developing new catalytic materials are critical to enabling this process. In this thesis, we explore new NO&lt;sub&gt;3&lt;/sub&gt;RR electrocatalysts, including metal alloys, metal sulfides, and metal oxynitrides. Chapters II–IV focus on original research, Chapter I provides an introduction to nitrate reduction, and Chapter V provides conclusions and a future outlook.&lt;/p&gt;
+&lt;p&gt;In Chapter II, we study the NO&lt;sub&gt;3&lt;/sub&gt;RR mechanism on Pt–Ru catalysts. We hypothesized that tuning the Pt–Ru alloy composition will maximize the NO&lt;sub&gt;3&lt;/sub&gt;RR rate by changing the NO&lt;sub&gt;3&lt;/sub&gt;&lt;sup&gt;–&lt;/sup&gt; and H adsorption strengths. We find Pt&lt;sub&gt;78&lt;/sub&gt;Ru&lt;sub&gt;22&lt;/sub&gt;/C in particular to be six times as active as Pt/C at 0.1 V vs. RHE. This maximum in activity arises from a transition in rate-determining step from nitrate dissociation to a different step at higher Ru content. This study demonstrates how electrocatalyst performance is tunable by changing the adsorption strength of reacting species through alloying.&lt;/p&gt;
+&lt;p&gt;In Chapter III, we study halide poisoning, a serious problem for many NO&lt;sub&gt;3&lt;/sub&gt;RR electrocatalysts. Here we compare the NO&lt;sub&gt;3&lt;/sub&gt;RR activity of rhodium sulfide (Rh&lt;sub&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;S&lt;sub&gt;&lt;i&gt;y&lt;/i&gt;&lt;/sub&gt;) against Pt/C and Rh/C in the presence of chloride. We find that Rh&lt;sub&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;S&lt;sub&gt;&lt;i&gt;y&lt;/i&gt;&lt;/sub&gt; is 1.6 to 5.6 times more active than Rh/C (the most active transition metal electrocatalyst) and 10 to 24 times more active than Pt/C over a potential range of 0 to 0.2 V vs RHE. In addition to being more active than Pt/C, Rh&lt;sub&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;S&lt;sub&gt;&lt;i&gt;y&lt;/i&gt;&lt;/sub&gt; retains 63% of its activity in the presence of chloride. Sulfur vacancies in Rh3S4 terraces are predicted to be active for nitrate reduction via an H-assisted nitrate dissociation mechanism, but also bind chloride strongly. Our findings rationalize the experimentally observed high NO&lt;sub&gt;3&lt;/sub&gt;RR activity but moderate chloride poison resistance of Rh&lt;sub&gt;&lt;i&gt;x&lt;/i&gt;&lt;/sub&gt;S&lt;sub&gt;&lt;i&gt;y&lt;/i&gt;&lt;/sub&gt;/C.&lt;/p&gt;
+&lt;p&gt;In Chapter IV, we investigate the thermodynamic stability of perovskite oxynitrides (PONs), a promising class of ammonia synthesis electrocatalysts. We determine a prototypical stable anion ordering for both ABO&lt;sub&gt;2&lt;/sub&gt;N and ABON&lt;sub&gt;2&lt;/sub&gt; stoichiometries containing a high degree of cis ordering between B cations and minority-composition anions. We predict 85 stable and 109 metastable PON compounds, with A = {La, Pb, Nd, Sr, Ba, Ca} and B = {Re, Os, Nb, Ta} forming PONs of less than 10 meV/atom above the thermodynamic convex hull. Computational Pourbaix diagrams for two stable candidates, CaReO&lt;sub&gt;2&lt;/sub&gt;N and LaTaON&lt;sub&gt;2&lt;/sub&gt;, suggest that not all compounds with zero energy above the thermodynamic convex hull can be easily synthesized.&lt;/p&gt;
+&lt;p&gt;Chapter V reviews the major findings of Chapters II–IV and discusses future research. We propose how machine learning studies can extend this dissertation’s work and accelerate discovery of new NO&lt;sub&gt;3&lt;/sub&gt;RR electrocatalysts, including high-entropy and defected alloys, defected metal chalcogenides, and complex perovskites. Highly active, selective, and stable NO&lt;sub&gt;3&lt;/sub&gt;RR electrocatalysts will help mitigate the ecological and health risks from the nitrogen cycle imbalance in an energy-efficient and economically viable way.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Oral Dissertation Defense</title>
+      <link>https://samueldy.github.io/talk/oral-dissertation-defense/</link>
+      <pubDate>Mon, 07 Aug 2023 09:00:00 -0400</pubDate>
+      <guid>https://samueldy.github.io/talk/oral-dissertation-defense/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Thermodynamic Stability and Anion Ordering of Perovskite Oxynitrides</title>
