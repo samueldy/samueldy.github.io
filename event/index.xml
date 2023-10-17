@@ -5,12 +5,20 @@
     <link>https://samueldy.github.io/event/</link>
       <atom:link href="https://samueldy.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Aug 2023 09:00:00 -0400</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 Oct 2023 13:00:00 -0400</lastBuildDate>
     <image>
       <url>https://samueldy.github.io/media/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://samueldy.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Heterogeneous Electrocatalysts for Aqueous Nitrate Reduction and Nitrogen Chemistry</title>
+      <link>https://samueldy.github.io/talk/heterogeneous-electrocatalysts-for-aqueous-nitrate-reduction-and-nitrogen-chemistry/</link>
+      <pubDate>Thu, 12 Oct 2023 13:00:00 -0400</pubDate>
+      <guid>https://samueldy.github.io/talk/heterogeneous-electrocatalysts-for-aqueous-nitrate-reduction-and-nitrogen-chemistry/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Oral Dissertation Defense</title>
