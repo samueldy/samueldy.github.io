@@ -1,15 +1,13 @@
-<!DOCTYPE html><html lang="en-us" >
-
-
+<!doctype html>
+<!-- This site was created with Hugo Blox. https://hugoblox.com -->
+<!-- Last Published: February 18, 2025 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="system">
+  
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
-  
-  
-    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
-  
+  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
 
   
   
@@ -23,28 +21,7 @@
 
 
 
-  
 
-
-
-
-
-
-
-  
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  
-
-  
-  
-  
-    
-      
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fira+Sans:400,400italic,700|Fira+Code&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:400,400italic,700|Fira+Code&display=swap" media="print" onload="this.media='all'">
-    
-  
 
   
   
@@ -64,7 +41,7 @@
   
     
   
-  <meta name="description" content="Postdoctoral Researcher (Sep 2023)" />
+  <meta name="description" content="Website for researcher Samuel D. Young." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://samueldy.github.io/" />
@@ -72,245 +49,122 @@
   
   
   
-    <meta name="theme-color" content="#5697E1" />
+  
+    
+    <link rel="stylesheet" href="/css/themes/blue.min.css" />
   
 
   
   
-
-  
-
-  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
-
-  
-  
-  
     
-    
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
-    
-
-    
-    
-    
-    
-      
-      
-      
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-
-    
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
-        
-      
-    
-
-    
-    
-    
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
-    
-
-    
-
-    
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-        
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
-      
-      
-
-      
-      
-
-      
-    
+    <link href="/dist/wc.min.css" rel="stylesheet" />
   
 
   
   
   
-  
-  
-  <link rel="stylesheet" href="/css/wowchemy.eae226ac831725d3a52647a38ef37209.css" />
 
   
+    
+    <link href="/css/custom.min.1af6dd13fda7549c168d5f7fd38f3ed8a676d1311d7711f0dfe5492086bf940d.css" rel="stylesheet" />
+  
 
+  <script>
+     
+    window.hbb = {
+       defaultTheme: document.documentElement.dataset.wcThemeDefault,
+       setDarkTheme: () => {
+        document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = "dark";
+      },
+       setLightTheme: () => {
+        document.documentElement.classList.remove("dark");
+        document.documentElement.style.colorScheme = "light";
+      }
+    }
 
+    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
 
+    if ("wc-color-theme" in localStorage) {
+      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+    } else {
+      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      if (window.hbb.defaultTheme === "system") {
+        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
+      }
+    }
+  </script>
+
+  <script>
+    
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
+      checkboxes.forEach(e => {
+        e.parentElement.parentElement.classList.add('task-list');
+      });
+
+      
+      const liNodes = document.querySelectorAll('.task-list li');
+      liNodes.forEach(nodes => {
+        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
+        if (textNodes.length > 0) {
+          const span = document.createElement('label');
+          textNodes[0].after(span);  
+          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
+          span.appendChild(textNodes[0]);
+        }
+      });
+    });
+  </script>
+
+  
+  
   
 
 
-  
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
   
   
-  
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  
-
-  
-    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Samuel D. Young" />
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Samuel D. Young - Research Profile" />
   
 
   
-    <link rel="manifest" href="/manifest.webmanifest" />
-  
-
-  <link rel="icon" type="image/png" href="/media/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hu_61a45faf2e8e6764.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu_f1083aec4c1b825b.png" />
 
   <link rel="canonical" href="https://samueldy.github.io/" />
 
@@ -334,17 +188,17 @@
   
   <meta property="twitter:card" content="summary" />
   
-    <meta property="twitter:site" content="@wowchemy" />
-    <meta property="twitter:creator" content="@wowchemy" />
+    <meta property="twitter:site" content="@GetResearchDev" />
+    <meta property="twitter:creator" content="@GetResearchDev" />
   
-  <meta property="og:site_name" content="Samuel D. Young" />
+  <meta property="og:site_name" content="Samuel D. Young - Research Profile" />
   <meta property="og:url" content="https://samueldy.github.io/" />
-  <meta property="og:title" content="Samuel D. Young" />
-  <meta property="og:description" content="Postdoctoral Researcher (Sep 2023)" /><meta property="og:image" content="https://samueldy.github.io/media/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://samueldy.github.io/media/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:title" content="Samuel D. Young - Research Profile" />
+  <meta property="og:description" content="Website for researcher Samuel D. Young." /><meta property="og:image" content="https://samueldy.github.io/media/icon_hu_fc756c660f29f51e.png" />
+    <meta property="twitter:image" content="https://samueldy.github.io/media/icon_hu_fc756c660f29f51e.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2023-10-12T13:00:00-04:00" />
+      <meta property="og:updated_time" content="2025-02-16T00:00:00&#43;00:00" />
     
   
 
@@ -353,1931 +207,1896 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://samueldy.github.io/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "url": "https://samueldy.github.io/"
+  "@type": "WebSite","url": "https://samueldy.github.io/"
 }
 </script>
 
 
   
 
+
+  <title>Samuel D. Young - Research Profile</title>
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <style>
+    @font-face {
+      font-family: 'Inter var';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
+    }
+  </style>
+
   
 
   
+  
+
+
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 
 
 
-  <title>Samuel D. Young</title>
+
+
+<link type="text/css" rel="stylesheet" href="/dist/pagefind/pagefind-ui.be766eb419317a14ec769d216e9779bfe8f3737c80e780f4ba0dafb57a41a482.css" integrity="sha256-vnZutBkxehTsdp0hbpd5v&#43;jzc3yA54D0ug2vtXpBpII=" />
+
+
+<script src="/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
+
+
+<script>window.hbb.pagefind = {"baseUrl":"/"};</script>
+
+<style>
+  html.dark {
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
+  }
+</style>
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      baseUrl: window.hbb.pagefind.baseUrl,
+      bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
+    });
+  });
+  document.addEventListener('DOMContentLoaded', () => {
+    let element = document.getElementById('search');
+    let trigger = document.getElementById('search_toggle');
+
+    if (trigger) {
+      trigger.addEventListener('click', () => {
+        element.classList.toggle('hidden');
+        element.querySelector("input").value = ""
+        element.querySelector("input").focus()
+
+        if (!element.classList.contains('hidden')) {
+          let clear_trigger = document.querySelector('.pagefind-ui__search-clear');
+
+          if (clear_trigger && !clear_trigger.hasAttribute('listenerOnClick')) {
+            clear_trigger.setAttribute('listenerOnClick', 'true');
+
+            clear_trigger.addEventListener('click', () => {
+              element.classList.toggle('hidden');
+            });
+          }
+        }
+
+      });
+    }
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  <script
+    defer
+    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
+    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
+  ></script>
+
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+      
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      
+    
+  
+
+
+
+
 </head>
 
-
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   "  >
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <script src="/js/wowchemy-init.min.d6674172597c590d2135d17ab0c0c161.js"></script>
-
-  
-
-
-<aside class="search-modal" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-      <div id="search-box">
-        
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
-        aria-label="Search...">
-        
-      </div>
-
+  <body class="dark:bg-hb-dark dark:text-white page-wrapper" id="top">
+    <div id="page-bg"></div>
+    <div class="page-header sticky top-0 z-30">
       
       
-
       
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
         
-      </div>
-
-    </section>
-  </div>
-</aside>
-
-
-
-  <div class="page-header">
+        
+        
+          <header id="site-header" class="header">
+  <nav class="navbar px-3 flex justify-left">
+    <div class="order-0 h-100">
+      
+      <a class="navbar-brand" href="/" title="Samuel D. Young - Research Profile">
+            
+            
+              
+              <img
+                fetchpriority="high"
+                decoding="async"
+                class=""
+                width="36"
+                height="36"
+                src="/media/icon_hu_b24074ac65f0055a.webp"
+                alt="Samuel D. Young - Research Profile" />
+            
+          
+        
+        Samuel D. Young
+      </a>
+    </div>
+    
+    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <label
+      for="nav-toggle"
+      class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
+        <title>Open Menu</title>
+        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      </svg>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
+        <title>Close Menu</title>
+        <polygon
+          points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+          transform="rotate(45 10 10)"></polygon>
+      </svg>
+    </label>
     
 
+    
+    
+    <ul
+      id="nav-menu"
+      class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8 justify-left
+      ml-auto mr-6">
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link active"
+          
+          href="/"
+        >About me</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/publication"
+        >Papers</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/talk"
+        >Talks</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/experience/"
+        >Experience</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
+          class="nav-link "
+          
+          href="/uploads/samuel-d-young-cv.pdf"
+        >CV</a
+        >
+      </li>
+      
+      
+      
+    </ul>
 
-
-
-
-
-
-
-
-
-
-
-<header class="header--fixed">
-  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-    <div class="container-xl">
+    <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
 
       
-      <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/">Samuel D. Young</a>
-      </div>
       
-
       
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-      <span><i class="fas fa-bars"></i></span>
+      <button
+        aria-label="search"
+        class="text-black hover:text-primary  inline-block px-3 text-xl dark:text-white"
+        id="search_toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="currentColor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
       </button>
       
 
       
-      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/">Samuel D. Young</a>
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
       </div>
       
 
       
       
-      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
 
-        
-        <ul class="navbar-nav d-md-inline-flex">
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#accomplishments" data-target="#accomplishments"><span>Awards</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#experience" data-target="#experience"><span>Experience</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#skills" data-target="#skills"><span>Skills</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-              
-              
-              
-                
-              
-              
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/files/samuel-d-young-cv.pdf"><span>CV</span></a>
-          </li>
-
-          
-          
-
-        
-
-          
-        </ul>
-      </div>
-
-      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-
-        
-        
-          
-        
-
-        
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
-
-        
-        
-        
-        <li class="nav-item dropdown theme-dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-            <i class="fas fa-moon" aria-hidden="true"></i>
-          </a>
-          <div class="dropdown-menu">
-            <a href="#" class="dropdown-item js-set-theme-light">
-              <span>Light</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-dark">
-              <span>Dark</span>
-            </a>
-            <a href="#" class="dropdown-item js-set-theme-auto">
-              <span>Automatic</span>
-            </a>
-          </div>
-        </li>
-        
-
-        
-        
-
-      </ul>
-
+      
+      
     </div>
   </nav>
 </header>
 
 
+<div id="search" class="hidden p-3"></div>
+
+
+        
+      
+    </div>
+    <div class="page-body ">
+      
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+
+
+
+  
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-resume-biography-3" class="relative hbb-section blox-resume-biography-3  dark" style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg  bg-image parallax" style="background-color: black;background-image: url(&#39;https://samueldy.github.io/media/stacked-peaks.svg&#39;);background-size: cover;background-position: center;filter: brightness(1);">
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="resume-biography px-3 flex flex-col md:flex-row justify-center gap-12">
+  <div class="flex-none m-w-[130px] mx-auto md:mx-0">
+
+  
+  
+
+  <div id="profile" class="flex justify-center items-center flex-col">
+    
+
+    <div class="avatar-wrapper mt-10">
+      
+      <img class="avatar rounded-full bg-white dark:bg-gray-800 p-1" src="/author/samuel-d.-young/avatar_hu_e758a429f811c939.png" alt="Samuel D. Young"
+           width="150" height="150">
+      
+    </div>
+    
+
+    <div class="portrait-title dark:text-white">
+
+      <div class="text-3xl font-bold mb-2 mt-6">Samuel D. Young</div>
+
+      <h3 class="font-semibold mb-1">ARL Distinguished Postdoctoral Fellow (Energy Sciences)</h3>
+
+      
+      <div class="mb-2">
+        <a href="https://arl.devcom.army.mil/" target="_blank" rel="noopener">
+        <div>U.S. Army DEVCOM Army Research Laboratory</div>
+        </a>
+      </div>
+      
+      <div class="mb-2">
+        <a href="https://www.umich.edu" target="_blank" rel="noopener">
+        <div>University of Michigan</div>
+        </a>
+      </div>
+      
+    </div>
+
+    <ul class="network-icon dark:text-zinc-100">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a href="mailto:samueldy@umich.edu"  aria-label="envelope"
+            data-toggle="tooltip" data-placement="top" title="E-mail Me">
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://github.com/samueldy" target="_blank" rel="noopener" aria-label="brands/github"
+           >
+          <svg style="height: 1.5rem;" fill="currentColor" viewBox="3 3 18 18"><path d="M12 3C7.0275 3 3 7.12937 3 12.2276C3 16.3109 5.57625 19.7597 9.15374 20.9824C9.60374 21.0631 9.77249 20.7863 9.77249 20.5441C9.77249 20.3249 9.76125 19.5982 9.76125 18.8254C7.5 19.2522 6.915 18.2602 6.735 17.7412C6.63375 17.4759 6.19499 16.6569 5.8125 16.4378C5.4975 16.2647 5.0475 15.838 5.80124 15.8264C6.51 15.8149 7.01625 16.4954 7.18499 16.7723C7.99499 18.1679 9.28875 17.7758 9.80625 17.5335C9.885 16.9337 10.1212 16.53 10.38 16.2993C8.3775 16.0687 6.285 15.2728 6.285 11.7432C6.285 10.7397 6.63375 9.9092 7.20749 9.26326C7.1175 9.03257 6.8025 8.08674 7.2975 6.81794C7.2975 6.81794 8.05125 6.57571 9.77249 7.76377C10.4925 7.55615 11.2575 7.45234 12.0225 7.45234C12.7875 7.45234 13.5525 7.55615 14.2725 7.76377C15.9937 6.56418 16.7475 6.81794 16.7475 6.81794C17.2424 8.08674 16.9275 9.03257 16.8375 9.26326C17.4113 9.9092 17.76 10.7281 17.76 11.7432C17.76 15.2843 15.6563 16.0687 13.6537 16.2993C13.98 16.5877 14.2613 17.1414 14.2613 18.0065C14.2613 19.2407 14.25 20.2326 14.25 20.5441C14.25 20.7863 14.4188 21.0746 14.8688 20.9824C16.6554 20.364 18.2079 19.1866 19.3078 17.6162C20.4077 16.0457 20.9995 14.1611 21 12.2276C21 7.12937 16.9725 3 12 3Z"></path></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://www.linkedin.com/in/samueldyoung1" target="_blank" rel="noopener" aria-label="brands/linkedin"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://scholar.google.com/citations?user=0NJ1S1cAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener" aria-label="academicons/google-scholar"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M343.759 106.662V79.43L363.524 64h-213.89L20.476 176.274h85.656a82.339 82.339 0 0 0-.219 6.225c0 20.845 7.22 38.087 21.672 51.861c14.453 13.797 32.252 20.648 53.327 20.648c4.923 0 9.75-.368 14.438-1.024c-2.907 6.5-4.374 12.523-4.374 18.142c0 9.875 4.499 20.43 13.467 31.642c-39.234 2.67-68.061 9.732-86.437 21.163c-10.531 6.5-19 14.704-25.39 24.531c-6.391 9.9-9.578 20.515-9.578 31.962c0 9.648 2.062 18.336 6.219 26.062c4.156 7.726 9.578 14.07 16.312 18.984c6.718 4.968 14.469 9.101 23.219 12.469c8.734 3.344 17.406 5.718 26.061 7.062A167.052 167.052 0 0 0 180.555 448c13.469 0 26.953-1.734 40.547-5.187c13.562-3.485 26.28-8.642 38.171-15.493c11.86-6.805 21.515-16.086 28.922-27.718c7.39-11.68 11.094-24.805 11.094-39.336c0-11.016-2.25-21.039-6.75-30.14c-4.468-9.073-9.938-16.542-16.452-22.345c-6.501-5.813-13-11.155-19.516-15.968c-6.5-4.845-12-9.75-16.468-14.813c-4.485-5.046-6.735-10.054-6.735-14.984c0-4.921 1.734-9.672 5.216-14.265c3.455-4.61 7.674-9.048 12.61-13.306c4.937-4.25 9.875-8.968 14.796-14.133c4.922-5.147 9.141-11.827 12.61-20.008c3.485-8.18 5.203-17.445 5.203-27.757c0-13.453-2.547-24.46-7.547-33.314c-.594-1.022-1.218-1.803-1.875-3.022l56.907-46.672v17.119c-7.393.93-6.624 5.345-6.624 10.635V245.96c0 5.958 4.875 10.834 10.834 10.834h3.989c5.958 0 10.833-4.875 10.833-10.834V117.293c0-5.277.778-9.688-6.561-10.63zm-107.36 222.48c1.14.75 3.704 2.78 7.718 6.038c4.05 3.243 6.797 5.695 8.266 7.414a443.553 443.553 0 0 1 6.376 7.547c2.813 3.375 4.718 6.304 5.718 8.734c1 2.477 2.016 5.461 3.047 8.946a38.27 38.27 0 0 1 1.485 10.562c0 17.048-6.564 29.68-19.656 37.859c-13.125 8.18-28.767 12.274-46.938 12.274c-9.187 0-18.203-1.093-27.063-3.196c-8.843-2.116-17.311-5.336-25.39-9.601c-8.078-4.258-14.577-10.204-19.5-17.797c-4.938-7.64-7.407-16.415-7.407-26.25c0-10.32 2.797-19.29 8.422-26.906c5.594-7.625 12.938-13.391 22.032-17.315c9.063-3.946 18.25-6.742 27.562-8.398a157.865 157.865 0 0 1 28.438-2.555c4.47 0 7.936.25 10.405.696c.455.219 3.032 2.07 7.735 5.563c4.704 3.462 7.625 5.595 8.75 6.384zm-3.359-100.579c-7.406 8.86-17.734 13.288-30.953 13.288c-11.86 0-22.298-4.764-31.266-14.312c-9-9.523-15.422-20.328-19.344-32.43c-3.937-12.109-5.906-23.984-5.906-35.648c0-13.694 3.596-25.352 10.781-34.976c7.187-9.65 17.5-14.485 30.938-14.485c11.875 0 22.374 5.038 31.437 15.157c9.094 10.085 15.61 21.413 19.517 33.968c3.922 12.54 5.873 24.53 5.873 35.984c0 13.446-3.702 24.61-11.076 33.454z"/></svg>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="https://orcid.org/0000-0003-4901-4107" target="_blank" rel="noopener" aria-label="academicons/orcid"
+           >
+          <svg style="height: 1.5rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M336.62 194.538c-7.13-3.328-13.866-5.56-20.253-6.614c-6.365-1.095-16.574-1.612-30.71-1.612h-36.704v152.747h37.634c14.673 0 26.081-1.013 34.224-3.017c8.142-2.004 14.921-4.526 20.356-7.626a69.448 69.448 0 0 0 14.942-11.388c14.488-14.714 21.742-33.273 21.742-55.717c0-22.052-7.44-40.052-22.341-53.982c-5.498-5.166-11.822-9.444-18.89-12.793zM256 8C119.022 8 8 119.042 8 256s111.022 248 248 248s248-111.042 248-248S392.978 8 256 8Zm-82.336 357.513h-29.389V160.148h29.389zM158.95 138.696c-11.14 0-20.213-9.01-20.213-20.212c0-11.118 9.052-20.191 20.213-20.191c11.18 0 20.232 9.052 20.232 20.191a20.194 20.194 0 0 1-20.232 20.212zm241.386 163.597c-5.29 12.545-12.834 23.581-22.65 33.088c-9.982 9.837-21.597 17.194-34.844 22.196c-7.75 3.017-14.839 5.063-21.307 6.117c-6.49 1.013-18.828 1.509-37.076 1.509h-64.956V160.148h69.233c27.962 0 50.034 4.154 66.32 12.545c16.265 8.37 29.181 20.728 38.792 36.972c9.61 16.265 14.425 34.018 14.425 53.196c.023 13.765-2.666 26.908-7.936 39.432z"/></svg>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
   </div>
 
-  <div class="page-body">
+  <div class="flex-auto max-w-prose md:mt-12">
     
-    
-    
+    <div class="pt-2 justify-content-center prose prose-slate dark:prose-invert">
+      <div class="bio-text" >
+        <h2 id="about-me">About Me</h2>
+<p>I am a Distinguished Postdoctoral Fellow in the Battery Sciences branch at the <a href="https://arl.devcom.army.mil/" target="_blank" rel="noopener">U.S. Army DEVCOM Army Research Laboratory</a>. I completed my doctoral work in the <a href="https://cheresearch.engin.umich.edu/goldsmith/" target="_blank" rel="noopener">Bryan Goldsmith Computational Catalysis and Materials Laboratory</a> of the <a href="https://umich.edu/" target="_blank" rel="noopener">University of Michigan</a>. My doctoral research centered on using computational catalysis and machine learning for environmental sciences, specifically water remediation.</p>
+<p>In my free time, I enjoy swimming, music composition, and organ performance.</p>
 
-    
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-<span class="js-widget-page d-none"></span>
-
-
-
-
-
-  
-  
-  
-  
-
-
-
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="about" class="home-section wg-about  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-
-      
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      
-      <img class="avatar avatar-circle"
-           width="270" height="270"
-           src="/authors/samueldy/avatar_hu7d0f01e19c63186a6da39820a02f6adc_426059_270x270_fill_lanczos_center_3.png" alt="Samuel D. Young">
-      
-
-      <div class="portrait-title">
-
-        <h2>Samuel D. Young</h2>
-
-        <h3>Postdoctoral Researcher (Sep 2023)</h3>
-
-        
-        <h3>
-          <a href="https://www.umich.edu" target="_blank" rel="noopener">
-          <span>University of Michigan (Ann Arbor)</span>
-          </a>
-        </h3>
-        
       </div>
+    </div>
+    
 
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
+    
+    <a href="uploads/samuel-d-young-cv.pdf" target="_blank" class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="w-3.5 h-3.5 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+      <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"/>
+      <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+    </svg> Check out my CV!</a>
+    
+
+
+
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-between mt-6 dark:text-gray-300">
+
+    
+    <div class="">
+      <div class="section-subheading mb-3">Interests</div>
+      <ul class="list-disc list-inside space-y-1 pl-5">
         
         <li>
-          <a href="mailto:samueldy@umich.edu"  aria-label="envelope">
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
+          Machine learning for materials discovery
         </li>
         
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="https://github.com/samueldy" target="_blank" rel="noopener" aria-label="github">
-            <i class="fab fa-github big-icon"></i>
-          </a>
+          Computational catalysis
         </li>
         
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="/files/samuel-d-young-cv.pdf"  aria-label="file-alt">
-            <i class="fas fa-file-alt big-icon"></i>
-          </a>
+          Environmental chemistry
         </li>
         
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="https://orcid.org/0000-0003-4901-4107" target="_blank" rel="noopener" aria-label="orcid">
-            <i class="fab fa-orcid big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://www.linkedin.com/in/samueldyoung1/" target="_blank" rel="noopener" aria-label="linkedin">
-            <i class="fab fa-linkedin big-icon"></i>
-          </a>
+          Battery electrolyte engineering
         </li>
         
       </ul>
-
     </div>
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-    <h1>Welcome!</h1>
-
-    <div class="article-style">
-      <p>I am a postdoctoral researcher in the <a href="http://cheresearch.engin.umich.edu/goldsmith/" target="_blank" rel="noopener">Goldsmith Computational Modeling Laboratory</a> at the University of Michigan. I completed my doctoral degree at University of Michigan in August 2023. My graduate research centered on using computational catalysis and machine learning for environmental sciences, specifically water remediation. I am also a 2022–2023 <a href="https://beyster.engin.umich.edu/" target="_blank" rel="noopener">J. Robert Beyster Computational Innovation Graduate Fellow</a> and a member of the <a href="https://catalysis.engin.umich.edu/" target="_blank" rel="noopener">Michigan Catalysis Science and Technology Institute</a>.</p>
-<p>In my free time, I enjoy swimming, music composition, and organ performance.</p>
-<p><a href="files/samuel-d-young-cv.pdf">Check out my CV!</a></p>
-
-    </div>
-
-    <div class="row">
-
-      
-      <div class="col-md-5">
-        <div class="section-subheading">Interests</div>
-        <ul class="ul-interests mb-0">
-          
-          <li>Machine learning for materials discovery</li>
-          
-          <li>Computational catalysis</li>
-          
-          <li>Environmental chemistry</li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-md-7">
-        <div class="section-subheading">Education</div>
-        <ul class="ul-edu fa-ul mb-0">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Ph.D. in Chemical Engineering, 2023</p>
-              <p class="institution">University of Michigan</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">M.S. in Chemical Engineering, 2020</p>
-              <p class="institution">University of Michigan</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">B.S. in Chemical Engineering, 2016</p>
-              <p class="institution">Cornell University</p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-
-
     
 
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="projects" class="home-section wg-portfolio  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
     
-      <div class="row  justify-content-center">
-      
+    <div class="">
+      <div class="section-subheading mb-3">Education</div>
+      <ul class="">
         
-          <div class="section-heading col-12 mb-3 text-center">
-            <h1 class="mb-0">Research Interests</h1>
-            <p class="mt-1">Current Projects</p>
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">Ph.D. in Chemical Engineering</p>
+            <p class="text-sm">University of Michigan</p>
           </div>
+        </li>
         
-      
-    
-
-      
-
-
-
-
-
-
-
-
-<div class="col-12 ">
-
-  
-
-  
-
-    
-
-    
-    
-    
-    
-      
-    
-
-    <span class="d-none default-project-filter">*</span>
-
-    
-    
-  
-
-  <div class="isotope projects-container row js-layout-row ">
-
-    
-    
-      
-    
-
-    
-      
-        
-          <div class="col-12 isotope-item js-id-catalysis js-id-environment">
-        
-        
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/no3rr/" >Electrocatalytic Nitrate Reduction</a>
-    </div>
-
-    
-    <a href="/project/no3rr/"  class="summary-link">
-      <div class="article-style">
-        Electrocatalysis is a promising approach to remediating nitrate-contaminated water.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Samuel D. Young</span>
-      </div>
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/project/no3rr/" >
-      <img src="/project/no3rr/featured_hu4331219034c2e40434b03007f93825e6_68261_150x0_resize_q75_h2_lanczos.webp" height="113" width="150"
-           alt="Electrocatalytic Nitrate Reduction" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-      </div>
-    
-      
-        
-          <div class="col-12 isotope-item js-id-catalysis js-id-ml">
-        
-        
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/alloy-ml/" >Machine Learning for Alloy Catalyst Discovery</a>
-    </div>
-
-    
-    <a href="/project/alloy-ml/"  class="summary-link">
-      <div class="article-style">
-        Active machine learning can accelerate the search for highly active, stable, and selective catalysts.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Samuel D. Young</span>
-      </div>
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/project/alloy-ml/" >
-      <img src="/project/alloy-ml/featured_hu90e2ef8424af1f947f36c5bd4d431e97_363854_150x0_resize_q75_h2_lanczos_3.webp" height="72" width="150"
-           alt="Machine Learning for Alloy Catalyst Discovery" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-      </div>
-    
-
-  </div>
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="accomplishments" class="home-section wg-accomplishments  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Awards and Fellowships</h1>
-            
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">M.S. in Chemical Engineering</p>
+            <p class="text-sm">University of Michigan</p>
           </div>
+        </li>
         
-      
-    
-
-      
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-  
-    <div class="card experience course">
-      <div class="card-body"><a href="https://beyster.engin.umich.edu/fellows-program/" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">J. Robert Beyster Computational Innovation Graduate Fellowship</div></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.umich.edu" target="_blank" rel="noopener">University of Michigan - College of Engineering</a><span class="middot-divider"></span>
-
-              Aug 2022
-              
-              – May 2023
-              
-            </div>
-
-        
-          <div class="card-text">Fellowship given to support cutting-edge research in computational materials discovery, materials data infrastructure, and high-performance computing.</div>
-        
-
-        
-      </div>
-    </div>
-  
-    <div class="card experience course">
-      <div class="card-body"><a href="https://micde.umich.edu/micde-fellowships/" target="_blank" rel="noopener"><div class="section-subheading card-title exp-title text-muted my-0">MICDE Graduate Fellowship</div></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.umich.edu" target="_blank" rel="noopener">University of Michigan - Michigan Institute for Computational Discovery and Engineering</a><span class="middot-divider"></span>
-
-              Sep 2018
-              
-              – May 2019
-              
-            </div>
-
-        
-          <div class="card-text">Research fellowship given for graduate research work in the application or development of scientific computing.</div>
-        
-
-        
-      </div>
-    </div>
-  
-  
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="experience" class="home-section wg-experience  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Experience</h1>
-            
+        <li class="flex items-start gap-3">
+          <svg style="" class='flex-shrink-0 w-5 h-5 me-2 mt-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.26 10.147a60.436 60.436 0 0 0-.491 6.347A48.627 48.627 0 0 1 12 20.904a48.627 48.627 0 0 1 8.232-4.41a60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.57 50.57 0 0 0-2.658-.813A59.905 59.905 0 0 1 12 3.493a59.902 59.902 0 0 1 10.399 5.84a51.39 51.39 0 0 0-2.658.814m-15.482 0A50.697 50.697 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"/></svg>
+          <div class="description">
+            <p class="course">B.S. in Chemical Engineering</p>
+            <p class="text-sm">Cornell University</p>
           </div>
+        </li>
         
-      
-    
-
-      
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-  
-
-  
-  
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col ">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border exp-fill">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
+      </ul>
     </div>
     
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
 
-              <div class="section-subheading card-title exp-title text-muted my-0">Postdoctoral Researcher</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.umich.edu" target="_blank" rel="noopener">University of Michigan</a></div>
-              <div class="text-muted exp-meta">
-                Sep 2023 –
-                
-                  Present
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Ann Arbor, MI</span>
-                
-              </div>
+  </div>
 
-          <div class="card-text">Currently conducting computational catalysis and machine learning research for nitrate reduction. My research involves density functional theory simulations and high-throughput electrocatalyst screening.</div>
+</div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="relative hbb-section blox-markdown  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Welcome!
+  </div>
+
+  
+  <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose"><p>I&rsquo;m a computational chemistry researcher seeking the best materials for electrocatalytic processes and energy storage solutions through multiscale modeling and simulation techniques.</p>
+<p>By combining strategic experimental work with the latest advancements in supercomputer architecture, machine learning, and cloud computing, we can design and build the materials and energy processes that will power the future.</p>
+<p><a href="mailto:samueldy@umich.edu">Let&rsquo;s connect.</a></p>
+</div>
+</div>
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="papers" class="relative hbb-section blox-collection  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Recent Publications
+  </div>
+
+  
+</div>
+
+
+<div class="flex flex-col items-center px-6">
+
+  
+  
+
+
+
+<div class="container px-8 mx-auto xl:px-5 py-5 lg:py-8 max-w-screen-lg ">
+  <div class="grid gap-10 md:grid-cols-3 lg:gap-10">
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="cursor-pointer group">
+
+  
+  
+  
+    
+  
+  
+  <div class="overflow-hidden transition-all bg-gray-100 rounded-md hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/publication/written-dissertation/" >
+
+      <img alt="Written Dissertation"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="404" loading="lazy" src="/publication/written-dissertation/featured_hu_9611e5a82700a9e.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="788"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/tags/umich/"><span
+          class="inline-block mt-5 text-xs font-medium tracking-wider uppercase text-primary-700 dark:text-primary-300">Umich</span></a>
+        
+      </div>
+      
+      <h2 class="mt-2 text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
+        href="/publication/written-dissertation/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Written Dissertation
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 text-sm text-gray-500 line-clamp-3 dark:text-gray-400"><a
+        href="/publication/written-dissertation/" >
+        Abstract Humans contribute more fixed nitrogen than can be reduced naturally. Understanding nitrogen chemistry is essential to balancing the global nitrogen cycle. An imbalanced nitrogen cycle raises levels of nitrate (NO3–) in water. Nitrate-laden water is linked to infant methemoglobinemia and ovarian cancer in humans, and to eutrophication in water reservoirs. To denitrify water, we propose using the electrocatalytic nitrate reduction reaction (NO3RR). NO3RR sustainably removes nitrate from water and generates benign or value-added products, such as NH3 or N2. However, understanding the interconversion of NO3–, NH3, and N2 and developing new catalytic materials are critical to enabling this process. In this thesis, we explore new NO3RR electrocatalysts, including metal alloys, metal sulfides, and metal oxynitrides. Chapters II–IV focus on original research, Chapter I provides an introduction to nitrate reduction, and Chapter V provides conclusions and a future outlook.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="flex items-center mt-3 space-x-3 text-gray-500 cursor-default dark:text-gray-400">
+          
+          
+          <time class="text-sm truncate" datetime="2023-08-27">27 Aug 2023</time>
         </div>
       </div>
+
     </div>
   </div>
+</div>
+
   
-  <div class="row experience">
     
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
+
+
+
+
+
+
+
+
+
+<div class="cursor-pointer group">
+
+  
+  
+  
     
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
+  
+  
+  <div class="overflow-hidden transition-all bg-gray-100 rounded-md hover:scale-105 dark:bg-gray-800">
 
-              <div class="section-subheading card-title exp-title text-muted my-0">Graduate Student Research Assistant</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.umich.edu" target="_blank" rel="noopener">University of Michigan</a></div>
-              <div class="text-muted exp-meta">
-                Aug 2018 –
-                
-                  Aug 2023
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Ann Arbor, MI</span>
-                
-              </div>
+    <a
+      class="relative block aspect-video"
+      href="/publication/chemater-pon-article/" >
 
-          <div class="card-text">Currently conducting computational catalysis and machine learning research for nitrate reduction. My research involves density functional theory simulations and high-throughput electrocatalyst screening.</div>
+      <img alt="Thermodynamic Stability and Anion Ordering of Perovskite Oxynitrides"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="517" loading="lazy" src="/publication/chemater-pon-article/featured_hu_be6d3eb3ee0e90d5.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="960"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/tags/umich/"><span
+          class="inline-block mt-5 text-xs font-medium tracking-wider uppercase text-primary-700 dark:text-primary-300">Umich</span></a>
+        
+      </div>
+      
+      <h2 class="mt-2 text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
+        href="/publication/chemater-pon-article/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Thermodynamic Stability and Anion Ordering of Perovskite Oxynitrides
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 text-sm text-gray-500 line-clamp-3 dark:text-gray-400"><a
+        href="/publication/chemater-pon-article/" >
+        The version of record is located here. Supporting information is available for free here.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="flex items-center mt-3 space-x-3 text-gray-500 cursor-default dark:text-gray-400">
+          
+          
+          <time class="text-sm truncate" datetime="2023-07-19">19 Jul 2023</time>
         </div>
       </div>
+
     </div>
   </div>
+</div>
+
   
-  <div class="row experience">
     
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
+
+
+
+
+
+
+
+
+
+<div class="cursor-pointer group">
+
+  
+  
+  
     
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
+  
+  
+  <div class="overflow-hidden transition-all bg-gray-100 rounded-md hover:scale-105 dark:bg-gray-800">
 
-              <div class="section-subheading card-title exp-title text-muted my-0">Visiting Graduate Student Scientist</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://lanl.gov/" target="_blank" rel="noopener">Los Alamos National Laboratory</a></div>
-              <div class="text-muted exp-meta">
-                Jan 2021 –
-                
-                  Oct 2021
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Los Alamos, NM</span>
-                
-              </div>
+    <a
+      class="relative block aspect-video"
+      href="/publication/jpcc-perovskite-nrr/" >
 
-          <div class="card-text">Conducted a computational research project investigating the thermodynamic stability and structure of ABO<sub>2</sub>N and ABON<sub>2</sub> perovskite oxynitrides.</div>
+      <img alt="Metal Oxynitrides for the Electrocatalytic Reduction of Nitrogen to Ammonia"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="270" loading="lazy" src="/publication/jpcc-perovskite-nrr/featured_hu_8ea6a88e5e26fda3.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="500"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/tags/catalysis/"><span
+          class="inline-block mt-5 text-xs font-medium tracking-wider uppercase text-primary-700 dark:text-primary-300">Catalysis</span></a>
+        
+      </div>
+      
+      <h2 class="mt-2 text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
+        href="/publication/jpcc-perovskite-nrr/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Metal Oxynitrides for the Electrocatalytic Reduction of Nitrogen to Ammonia
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 text-sm text-gray-500 line-clamp-3 dark:text-gray-400"><a
+        href="/publication/jpcc-perovskite-nrr/" >
+        Selected as an ACS Editors’ Choice article! Publicly available to read for free through the end of Jan 2023 at https://pubs.acs.org/doi/full/10.1021/acs.jpcc.2c02816.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="flex items-center mt-3 space-x-3 text-gray-500 cursor-default dark:text-gray-400">
+          
+          
+          <time class="text-sm truncate" datetime="2022-08-03">03 Aug 2022</time>
         </div>
       </div>
+
     </div>
   </div>
+</div>
+
   
-  <div class="row experience">
     
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
+
+
+
+
+
+
+
+
+
+<div class="cursor-pointer group">
+
+  
+  
+  
     
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
+  
+  
+  <div class="overflow-hidden transition-all bg-gray-100 rounded-md hover:scale-105 dark:bg-gray-800">
 
-              <div class="section-subheading card-title exp-title text-muted my-0">Graduate Student Instructor - ChE 505</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.umich.edu" target="_blank" rel="noopener">University of Michigan</a></div>
-              <div class="text-muted exp-meta">
-                Aug 2021 –
-                
-                  Dec 2021
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Ann Arbor, MI</span>
-                
-              </div>
+    <a
+      class="relative block aspect-video"
+      href="/publication/rh-sulfides/" >
 
-          <div class="card-text">Co-lead an engineering mathematics course for first-year graduate students. Responsibilities included providing office hours, composing homework assignments, and guiding students through a capstone semester project.</div>
+      <img alt="Electrocatalytic nitrate reduction on rhodium sulfide compared to Pt and Rh in the presence of chloride"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="383" loading="lazy" src="/publication/rh-sulfides/featured_hu_90d5f2c972967f69.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="771"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/tags/catalysis/"><span
+          class="inline-block mt-5 text-xs font-medium tracking-wider uppercase text-primary-700 dark:text-primary-300">Catalysis</span></a>
+        
+      </div>
+      
+      <h2 class="mt-2 text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
+        href="/publication/rh-sulfides/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Electrocatalytic nitrate reduction on rhodium sulfide compared to Pt and Rh in the presence of chloride
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 text-sm text-gray-500 line-clamp-3 dark:text-gray-400"><a
+        href="/publication/rh-sulfides/" >
+        </a></p>
+      </div>
+      <div class="flex-none">
+        <div class="flex items-center mt-3 space-x-3 text-gray-500 cursor-default dark:text-gray-400">
+          
+          
+          <time class="text-sm truncate" datetime="2021-10-14">14 Oct 2021</time>
         </div>
       </div>
+
     </div>
   </div>
+</div>
+
   
-  <div class="row experience">
     
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
+
+
+
+
+
+
+
+
+
+<div class="cursor-pointer group">
+
+  
+  
+  
     
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
+  
+  
+  <div class="overflow-hidden transition-all bg-gray-100 rounded-md hover:scale-105 dark:bg-gray-800">
 
-              <div class="section-subheading card-title exp-title text-muted my-0">Graduate Student Instructor - ENGR 1000-320</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.umich.edu" target="_blank" rel="noopener">University of Michigan</a></div>
-              <div class="text-muted exp-meta">
-                Jan 2021 –
-                
-                  Apr 2021
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Ann Arbor, MI</span>
-                
-              </div>
+    <a
+      class="relative block aspect-video"
+      href="/publication/trchem-perovskites-tunable/" >
 
-          <div class="card-text">Currently co-leading a freshman introductory machine learning course for 46 students. My duties include holding weekly office hours, assisting students with homework and lab assignments, and grading homework and exams.</div>
+      <img alt="Perovskite Oxynitrides as Tunable Materials for Electrocatalytic Nitrogen Reduction to Ammonia"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="335" loading="lazy" src="/publication/trchem-perovskites-tunable/featured_hu_9c81f36457624a6f.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="960"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/tags/catalysis/"><span
+          class="inline-block mt-5 text-xs font-medium tracking-wider uppercase text-primary-700 dark:text-primary-300">Catalysis</span></a>
+        
+      </div>
+      
+      <h2 class="mt-2 text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
+        href="/publication/trchem-perovskites-tunable/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Perovskite Oxynitrides as Tunable Materials for Electrocatalytic Nitrogen Reduction to Ammonia
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 text-sm text-gray-500 line-clamp-3 dark:text-gray-400"><a
+        href="/publication/trchem-perovskites-tunable/" >
+        Perovskite oxynitrides are a tunable class of materials with unique chemistry for electrocatalytic nitrogen reduction.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="flex items-center mt-3 space-x-3 text-gray-500 cursor-default dark:text-gray-400">
+          
+          
+          <time class="text-sm truncate" datetime="2021-07-24">24 Jul 2021</time>
         </div>
       </div>
+
     </div>
   </div>
+</div>
+
   
-  <div class="row experience">
     
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-    </div>
+
+
+
+
+
+
+
+
+
+<div class="cursor-pointer group">
+
+  
+  
+  
     
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
+  
+  
+  <div class="overflow-hidden transition-all bg-gray-100 rounded-md hover:scale-105 dark:bg-gray-800">
 
-              <div class="section-subheading card-title exp-title text-muted my-0">Graduate Student Instructor - ChE 505</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.umich.edu" target="_blank" rel="noopener">University of Michigan</a></div>
-              <div class="text-muted exp-meta">
-                Aug 2020 –
-                
-                  Dec 2020
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Ann Arbor, MI</span>
-                
-              </div>
+    <a
+      class="relative block aspect-video"
+      href="/publication/pt-ru-alloying-study/" >
 
-          <div class="card-text">Co-lead an engineering mathematics course for first-year graduate students. Responsibilities included providing office hours, composing homework assignments, and guiding students through a capstone semester project.</div>
+      <img alt="Increasing Electrocatalytic Nitrate Reduction Activity by Controlling Adsorption through PtRu Alloying"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="404" loading="lazy" src="/publication/pt-ru-alloying-study/featured_hu_a314742e076a6b11.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="960"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/tags/catalysis/"><span
+          class="inline-block mt-5 text-xs font-medium tracking-wider uppercase text-primary-700 dark:text-primary-300">Catalysis</span></a>
+        
+      </div>
+      
+      <h2 class="mt-2 text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
+        href="/publication/pt-ru-alloying-study/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Increasing Electrocatalytic Nitrate Reduction Activity by Controlling Adsorption through PtRu Alloying
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 text-sm text-gray-500 line-clamp-3 dark:text-gray-400"><a
+        href="/publication/pt-ru-alloying-study/" >
+        PtRu alloy catalysts have higher nitrate reduction activity than Pt or Ru alone.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="flex items-center mt-3 space-x-3 text-gray-500 cursor-default dark:text-gray-400">
+          
+          
+          <time class="text-sm truncate" datetime="2020-08-11">11 Aug 2020</time>
         </div>
       </div>
+
     </div>
   </div>
+</div>
+
   
-  <div class="row experience">
-    
-    <div class="col-auto text-center flex-column d-none d-sm-flex">
-      <div class="row h-50">
-        <div class="col border-right">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
-      <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
-      </div>
-      <div class="row h-50">
-        <div class="col ">&nbsp;</div>
-        <div class="col">&nbsp;</div>
-      </div>
+
     </div>
+</div>
+
+
+</div>
+
+
+
+
+
+  
+  
     
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
+  
 
-              <div class="section-subheading card-title exp-title text-muted my-0">Chemical Engineering Consultant</div>
-              <div class="section-subheading card-title exp-company text-muted my-0"><a href="https://www.cbc.ccdc.army.mil/" target="_blank" rel="noopener">U.S. Army Combat Capabilities Development Command Chemical Biological Center</a></div>
-              <div class="text-muted exp-meta">
-                Aug 2016 –
-                
-                  Aug 2018
-                
-                
-                  <span class="middot-divider"></span>
-                  <span>Edgewood, MD</span>
-                
-              </div>
+  
+  
+  
+  
+    
+  
 
-          <div class="card-text">Provided lifecycle analysis and support of chemical detection commodity items used in the Army, as well as logistics support for 59 active-duty Army units.</div>
+  
+
+  <div class="container mx-auto max-w-screen-lg px-8 xl:px-5 pb-5 lg:pb-8">
+    <div class="mt-10 flex justify-center">
+      <a
+        class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300"
+        href="/publication/">
+          <span>See all</span>
+        </a>
+      </div>
+  </div>
+
+
+
+
+  
+
+  
+</section>
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="talks" class="relative hbb-section blox-collection  " style="padding: 6rem 0 6rem 0;" >
+ <div class="home-section-bg " >
+   
+ </div>
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center px-6 md:px-0">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    Recent and Upcoming Talks
+  </div>
+
+  
+</div>
+
+
+<div class="flex flex-col items-center px-6">
+
+  
+  
+
+
+
+<div class="container px-8 mx-auto xl:px-5 py-5 lg:py-8 max-w-screen-lg ">
+  <div class="grid gap-10 md:grid-cols-3 lg:gap-10">
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+<div class="cursor-pointer group">
+
+  
+  
+  
+    
+  
+  
+  <div class="overflow-hidden transition-all bg-gray-100 rounded-md hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/talk/arl-dpf-seminar_12-oct-2023/" >
+
+      <img alt="Heterogeneous Electrocatalysts for Aqueous Nitrate Reduction and Nitrogen Chemistry"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="527" loading="lazy" src="/talk/arl-dpf-seminar_12-oct-2023/featured_hu_dc434659d138f7a8.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="960"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/tags/umich/"><span
+          class="inline-block mt-5 text-xs font-medium tracking-wider uppercase text-primary-700 dark:text-primary-300">Umich</span></a>
+        
+      </div>
+      
+      <h2 class="mt-2 text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
+        href="/talk/arl-dpf-seminar_12-oct-2023/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Heterogeneous Electrocatalysts for Aqueous Nitrate Reduction and Nitrogen Chemistry
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 text-sm text-gray-500 line-clamp-3 dark:text-gray-400"><a
+        href="/talk/arl-dpf-seminar_12-oct-2023/" >
+        U.S. Army Research Lab Distinguished Postdoctoral Fellowship Candidate Seminar</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="flex items-center mt-3 space-x-3 text-gray-500 cursor-default dark:text-gray-400">
+          
+          
+          <time class="text-sm truncate" datetime="2023-10-12">12 Oct 2023</time>
         </div>
       </div>
-    </div>
-  </div>
-  
-  
-</div>
-
-
-    
-      </div>
-    
 
     </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="skills" class="home-section wg-featurette  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-
-      
-
-
-<div class="row featurette">
-  
-  <div class="col-md-12 section-heading">
-    <h1>Skills</h1>
-    
-  </div>
-  
-
-  
-
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fas fa-atom"></i></div>
-    
-    <div class="section-subheading">Atomistic Modeling</div>
-    <p>DFT (VASP), ASE, Pymatgen</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fab fa-python"></i></div>
-    
-    <div class="section-subheading">Python</div>
-    <p>Numerical computing, web services, automation</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fas fa-project-diagram"></i></div>
-    
-    <div class="section-subheading">Machine Learning</div>
-    <p>scikit-learn, PyTorch</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fas fa-database"></i></div>
-    
-    <div class="section-subheading">NoSQL DBMS</div>
-    <p>MongoDB, PyMongo</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fas fa-database"></i></div>
-    
-    <div class="section-subheading">SQL RBDMS</div>
-    <p>MS Access JET/ACE SQL, PostgreSQL, sqlite</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fas fa-globe"></i></div>
-    
-    <div class="section-subheading">Web Development</div>
-    <p>React, Next.js, Django, Tailwind, SWR</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fab fa-linux"></i></div>
-    
-    <div class="section-subheading">Linux (SuSE, Arch, Ubuntu)</div>
-    <p>Shell scripting, VMs, Docker</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fas fa-cogs"></i></div>
-    
-    <div class="section-subheading">Workflow Managers</div>
-    <p>Slurm, PBS/Torque, FireWorks, Luigi</p>
-  </div>
-  
-  
-  
-  
-    
-  
-  <div class="col-12 col-sm-4">
-    
-    <div class="featurette-icon"><i class="fab fa-microsoft"></i></div>
-    
-    <div class="section-subheading">Visual Basic for Applications</div>
-    <p>MS Access DAO, forms, MS Excel</p>
-  </div>
-  
-</div>
-
-
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="publications" class="home-section wg-pages  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Publications</h1>
-            
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  <div class="alert alert-note">
-  <div>
-    <a href="./publication/">Search/filter publications&hellip;</a>
-  </div>
-</div>
-
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/written-dissertation/" >Written Dissertation</a>
-    </div>
-
-    
-    <a href="/publication/written-dissertation/"  class="summary-link">
-      <div class="article-style">
-        Abstract Humans contribute more fixed nitrogen than can be reduced naturally. Understanding nitrogen chemistry is essential to balancing the global nitrogen cycle. An imbalanced nitrogen cycle raises levels of nitrate (NO3–) in water.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Samuel D. Young</span>
-      </div>
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/written-dissertation/" >
-      <img src="/publication/written-dissertation/featured_hu7e793044ede10ba2b49680554d397e4d_41824_150x0_resize_q75_h2_lanczos_3.webp" height="77" width="150"
-           alt="Written Dissertation" loading="lazy">
-    </a>
-    
   </div>
 </div>
 
@@ -2290,62 +2109,59 @@
 
 
 
-  
 
 
-
-
-
-
+<div class="cursor-pointer group">
 
   
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/chemater-pon-article/" >Thermodynamic Stability and Anion Ordering of Perovskite Oxynitrides</a>
-    </div>
-
+  
+  
     
-    <a href="/publication/chemater-pon-article/"  class="summary-link">
-      <div class="article-style">
-        The version of record is located here. Supporting information is available for free here.
-      </div>
-    </a>
-    
+  
+  
+  <div class="overflow-hidden transition-all bg-gray-100 rounded-md hover:scale-105 dark:bg-gray-800">
 
-    <div class="stream-meta article-metadata">
+    <a
+      class="relative block aspect-video"
+      href="/talk/dissertation-defense/" >
 
-      
-
-      
-      <div>
-        
-
-  <span >
-      Samuel D. Young</span>, <span >
-      Jiadong Chen</span>, <span >
-      Wenhao Sun</span>, <span >
-      Bryan R. Goldsmith</span>, <span >
-      Ghanshyam Pilania</span>
-      </div>
-      
-    </div>
-
-    
-
+      <img alt="Oral Dissertation Defense"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="515" loading="lazy" src="/talk/dissertation-defense/featured_hu_e217813159433c62.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="960"></a>
   </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/chemater-pon-article/" >
-      <img src="/publication/chemater-pon-article/featured_hua24effffa3a2656f3a7fdddaadf31208_705365_150x0_resize_q75_h2_lanczos_3.webp" height="81" width="150"
-           alt="Thermodynamic Stability and Anion Ordering of Perovskite Oxynitrides" loading="lazy">
-    </a>
-    
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/tags/umich/"><span
+          class="inline-block mt-5 text-xs font-medium tracking-wider uppercase text-primary-700 dark:text-primary-300">Umich</span></a>
+        
+      </div>
+      
+      <h2 class="mt-2 text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
+        href="/talk/dissertation-defense/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Oral Dissertation Defense
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 text-sm text-gray-500 line-clamp-3 dark:text-gray-400"><a
+        href="/talk/dissertation-defense/" >
+        Oral defense of the dissertation of Samuel D. Young</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="flex items-center mt-3 space-x-3 text-gray-500 cursor-default dark:text-gray-400">
+          
+          
+          <time class="text-sm truncate" datetime="2023-08-07">07 Aug 2023</time>
+        </div>
+      </div>
+
+    </div>
   </div>
 </div>
 
@@ -2358,63 +2174,59 @@
 
 
 
-  
 
 
-
-
-
-
+<div class="cursor-pointer group">
 
   
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/jpcc-perovskite-nrr/" >Metal Oxynitrides for the Electrocatalytic Reduction of Nitrogen to Ammonia</a>
-    </div>
-
+  
+  
     
-    <a href="/publication/jpcc-perovskite-nrr/"  class="summary-link">
-      <div class="article-style">
-        Selected as an ACS Editors&rsquo; Choice article! Publicly available to read for free through the end of Jan 2023 at https://pubs.acs.org/doi/full/10.1021/acs.jpcc.2c02816.
-      </div>
-    </a>
-    
+  
+  
+  <div class="overflow-hidden transition-all bg-gray-100 rounded-md hover:scale-105 dark:bg-gray-800">
 
-    <div class="stream-meta article-metadata">
+    <a
+      class="relative block aspect-video"
+      href="/talk/aiche-2022/" >
 
-      
-
-      
-      <div>
-        
-
-  <span >
-      Samuel D. Young</span>, <span >
-      Bianca Ceballos</span>, <span >
-      Amitava Banerjee</span>, <span >
-      Rangachary Mukundan</span>, <span >
-      Ghanshyam Pilania</span>, <span >
-      Bryan R. Goldsmith</span>
-      </div>
-      
-    </div>
-
-    
-
+      <img alt="AIChE 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="540" loading="lazy" src="/talk/aiche-2022/featured_hu_b6d1803b5fa029b1.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="540"></a>
   </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/jpcc-perovskite-nrr/" >
-      <img src="/publication/jpcc-perovskite-nrr/featured_hud99a0f4a53be0459ab695e206e276100_40464_150x0_resize_q75_h2_lanczos_3.webp" height="81" width="150"
-           alt="Metal Oxynitrides for the Electrocatalytic Reduction of Nitrogen to Ammonia" loading="lazy">
-    </a>
-    
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/tags/catalysis/"><span
+          class="inline-block mt-5 text-xs font-medium tracking-wider uppercase text-primary-700 dark:text-primary-300">Catalysis</span></a>
+        
+      </div>
+      
+      <h2 class="mt-2 text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
+        href="/talk/aiche-2022/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">AIChE 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 text-sm text-gray-500 line-clamp-3 dark:text-gray-400"><a
+        href="/talk/aiche-2022/" >
+        </a></p>
+      </div>
+      <div class="flex-none">
+        <div class="flex items-center mt-3 space-x-3 text-gray-500 cursor-default dark:text-gray-400">
+          
+          
+          <time class="text-sm truncate" datetime="2022-11-18">18 Nov 2022</time>
+        </div>
+      </div>
+
+    </div>
   </div>
 </div>
 
@@ -2427,120 +2239,59 @@
 
 
 
+
+
+<div class="cursor-pointer group">
+
   
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/rh-sulfides/" >Electrocatalytic nitrate reduction on rhodium sulfide compared to Pt and Rh in the presence of chloride</a>
-    </div>
-
+  
+  
     
+  
+  
+  <div class="overflow-hidden transition-all bg-gray-100 rounded-md hover:scale-105 dark:bg-gray-800">
 
-    <div class="stream-meta article-metadata">
+    <a
+      class="relative block aspect-video"
+      href="/talk/acs-fall-2022/" >
 
-      
-
-      
-      <div>
+      <img alt="ACS Fall 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="269" loading="lazy" src="/talk/acs-fall-2022/featured_hu_85f9d9101a3bc0d3.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="498"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
         
-
-  <span >
-      Danielle Richards</span>, <span >
-      Samuel D. Young</span>, <span >
-      Bryan R. Goldsmith</span>, <span >
-      Nirala Singh</span>
-      </div>
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/rh-sulfides/" >
-      <img src="/publication/rh-sulfides/featured_hu156fcafd75183d70dd71a049f2c6bf89_130983_150x0_resize_q75_h2_lanczos_3.webp" height="75" width="150"
-           alt="Electrocatalytic nitrate reduction on rhodium sulfide compared to Pt and Rh in the presence of chloride" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/trchem-perovskites-tunable/" >Perovskite Oxynitrides as Tunable Materials for Electrocatalytic Nitrogen Reduction to Ammonia</a>
-    </div>
-
-    
-    <a href="/publication/trchem-perovskites-tunable/"  class="summary-link">
-      <div class="article-style">
-        Perovskite oxynitrides are a tunable class of materials with unique chemistry for electrocatalytic nitrogen reduction.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
+        <a href="/tags/umich/"><span
+          class="inline-block mt-5 text-xs font-medium tracking-wider uppercase text-primary-700 dark:text-primary-300">Umich</span></a>
         
-
-  <span >
-      Samuel D. Young</span>, <span >
-      Amitava Banerjee</span>, <span >
-      Ghanshyam Pilania</span>, <span >
-      Bryan R. Goldsmith</span>
       </div>
       
+      <h2 class="mt-2 text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
+        href="/talk/acs-fall-2022/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">ACS Fall 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 text-sm text-gray-500 line-clamp-3 dark:text-gray-400"><a
+        href="/talk/acs-fall-2022/" >
+        </a></p>
+      </div>
+      <div class="flex-none">
+        <div class="flex items-center mt-3 space-x-3 text-gray-500 cursor-default dark:text-gray-400">
+          
+          
+          <time class="text-sm truncate" datetime="2022-08-23">23 Aug 2022</time>
+        </div>
+      </div>
+
     </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/trchem-perovskites-tunable/" >
-      <img src="/publication/trchem-perovskites-tunable/featured_hud1289f1ea91396c34add304b2cb8dc15_528425_150x0_resize_q75_h2_lanczos_3.webp" height="52" width="150"
-           alt="Perovskite Oxynitrides as Tunable Materials for Electrocatalytic Nitrogen Reduction to Ammonia" loading="lazy">
-    </a>
-    
   </div>
 </div>
 
@@ -2553,61 +2304,56 @@
 
 
 
-  
 
 
-
-
-
-
+<div class="cursor-pointer group">
 
   
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/pt-ru-alloying-study/" >Increasing Electrocatalytic Nitrate Reduction Activity by Controlling Adsorption through PtRu Alloying</a>
-    </div>
-
+  
+  
     
-    <a href="/publication/pt-ru-alloying-study/"  class="summary-link">
-      <div class="article-style">
-        PtRu alloy catalysts have higher nitrate reduction activity than Pt or Ru alone.
-      </div>
-    </a>
-    
+  
+  
+  <div class="overflow-hidden transition-all bg-gray-100 rounded-md hover:scale-105 dark:bg-gray-800">
 
-    <div class="stream-meta article-metadata">
+    <a
+      class="relative block aspect-video"
+      href="/talk/aiche-2021/" >
 
-      
-
-      
-      <div>
-        
-
-  <span >
-      Zixuan Wang</span>, <span >
-      Samuel D. Young</span>, <span >
-      Bryan Goldsmith</span>, <span >
-      Nirala Singh</span>
-      </div>
-      
-    </div>
-
-    
-
+      <img alt="AIChE 2021: Platinum-Ruthenium Alloys As Electrocatalysts for Efficient Aqueous Nitrate Reduction"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="421" loading="lazy" src="/talk/aiche-2021/featured_hu_dd166e0bc76662f9.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="770"></a>
   </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/pt-ru-alloying-study/" >
-      <img src="/publication/pt-ru-alloying-study/featured_hu5405fbd3908da2f91bb98086e5d2d6f4_271464_150x0_resize_q75_h2_lanczos_3.webp" height="63" width="150"
-           alt="Increasing Electrocatalytic Nitrate Reduction Activity by Controlling Adsorption through PtRu Alloying" loading="lazy">
-    </a>
-    
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+      </div>
+      
+      <h2 class="mt-2 text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
+        href="/talk/aiche-2021/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">AIChE 2021: Platinum-Ruthenium Alloys As Electrocatalysts for Efficient Aqueous Nitrate Reduction
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 text-sm text-gray-500 line-clamp-3 dark:text-gray-400"><a
+        href="/talk/aiche-2021/" >
+        To be held in-person at the Hynes Convention Center, Sheraton Boston and Marriott Boston Copley Place over the dates of Nov. 7-11 and virtually from Nov. 15-19, the AIChE Annual Meeting is the forum for ChEs interested in innovation and professional growth. Experts will cover wide range of topics relevant to cutting-edge research, new technologies, and emerging areas in the field.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="flex items-center mt-3 space-x-3 text-gray-500 cursor-default dark:text-gray-400">
+          
+          
+          <time class="text-sm truncate" datetime="2021-11-16">16 Nov 2021</time>
+        </div>
+      </div>
+
+    </div>
   </div>
 </div>
 
@@ -2620,823 +2366,149 @@
 
 
 
-  
 
 
-
-
-
-
+<div class="cursor-pointer group">
 
   
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/publication/combi-nitrides/" >Conductivity and Microstructure of Combinatorially Sputter-Deposited Ta–Ti–Al Nitride Thin Films</a>
-    </div>
-
+  
+  
     
-    <a href="/publication/combi-nitrides/"  class="summary-link">
-      <div class="article-style">
-        Ta-Ti-Al nitride thin films with only ~20 at.% Ti may enable PEM fuel cell catalyst supports that are both conductive and durable.
-      </div>
-    </a>
-    
+  
+  
+  <div class="overflow-hidden transition-all bg-gray-100 rounded-md hover:scale-105 dark:bg-gray-800">
 
-    <div class="stream-meta article-metadata">
+    <a
+      class="relative block aspect-video"
+      href="/talk/acs-fall-2021/" >
 
-      
-
-      
-      <div>
-        
-
-  <span >
-      James R. O’Dea</span>, <span >
-      Megan E. Holtz</span>, <span >
-      Anna E. Legard</span>, <span >
-      Samuel D. Young</span>, <span >
-      Raymond G. Burns</span>, <span >
-      Abigail R. Van Wassen</span>, <span >
-      David A. Muller</span>, <span >
-      Héctor D. Abruña</span>, <span >
-      Francis J. DiSalvo</span>, <span >
-      R. Bruce van Dover</span>, <span >
-      John A. Marohn</span>
-      </div>
-      
-    </div>
-
-    
-
+      <img alt="ACS Fall 2021: Rhodium Sulfide Electrocatalysts for Electrocatalytic Nitrate Reduction"
+           class="object-contain transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="332" loading="lazy" src="/talk/acs-fall-2021/featured_hu_3d59348a6536ef8e.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="552"></a>
   </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/publication/combi-nitrides/" >
-      <img src="/publication/combi-nitrides/featured_hud71f824fec3e1e2fdfe85528e79508ec_42378_150x0_resize_q75_h2_lanczos.webp" height="64" width="150"
-           alt="Conductivity and Microstructure of Combinatorially Sputter-Deposited Ta–Ti–Al Nitride Thin Films" loading="lazy">
-    </a>
-    
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+      </div>
+      
+      <h2 class="mt-2 text-lg font-semibold leading-snug tracking-tight dark:text-white"><a
+        href="/talk/acs-fall-2021/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">ACS Fall 2021: Rhodium Sulfide Electrocatalysts for Electrocatalytic Nitrate Reduction
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 text-sm text-gray-500 line-clamp-3 dark:text-gray-400"><a
+        href="/talk/acs-fall-2021/" >
+        </a></p>
+      </div>
+      <div class="flex-none">
+        <div class="flex items-center mt-3 space-x-3 text-gray-500 cursor-default dark:text-gray-400">
+          
+          
+          <time class="text-sm truncate" datetime="2021-08-26">26 Aug 2021</time>
+        </div>
+      </div>
+
+    </div>
   </div>
 </div>
 
   
 
-  
-  
-  
+    </div>
+</div>
+
 
 </div>
 
 
+
+
+
+  
+  
     
+  
+
+  
+  
+  
+  
+    
+  
+
+  
+
+  <div class="container mx-auto max-w-screen-lg px-8 xl:px-5 pb-5 lg:pb-8">
+    <div class="mt-10 flex justify-center">
+      <a
+        class="relative inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 pl-4 text-sm font-medium text-gray-500 hover:bg-gray-50 focus:z-20 dark:border-gray-500 dark:bg-gray-800 dark:text-gray-300"
+        href="/talk/">
+          <span>See all</span>
+        </a>
       </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="talks" class="home-section wg-pages  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Recent and Upcoming Talks</h1>
-            
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<div class="col-12 col-lg-8">
-
-  
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/heterogeneous-electrocatalysts-for-aqueous-nitrate-reduction-and-nitrogen-chemistry/" >Heterogeneous Electrocatalysts for Aqueous Nitrate Reduction and Nitrogen Chemistry</a>
-    </div>
-
-    
-    <a href="/talk/heterogeneous-electrocatalysts-for-aqueous-nitrate-reduction-and-nitrogen-chemistry/"  class="summary-link">
-      <div class="article-style">
-        U.S. Army Research Lab Distinguished Postdoctoral Fellowship Candidate Seminar
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          Oct 12, 2023 1:00 PM &mdash; 2:00 PM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Virtual</span>
-        
-      </div>
-      
-
-      
-      <div>
-        
-
-  <span >
-      Samuel D. Young</span>
-      </div>
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/heterogeneous-electrocatalysts-for-aqueous-nitrate-reduction-and-nitrogen-chemistry/" >
-      <img src="/talk/heterogeneous-electrocatalysts-for-aqueous-nitrate-reduction-and-nitrogen-chemistry/featured_hu9d47141a4a464a804bed8515951d1804_409697_150x0_resize_q75_h2_lanczos_3.webp" height="82" width="150"
-           alt="Heterogeneous Electrocatalysts for Aqueous Nitrate Reduction and Nitrogen Chemistry" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/oral-dissertation-defense/" >Oral Dissertation Defense</a>
-    </div>
-
-    
-    <a href="/talk/oral-dissertation-defense/"  class="summary-link">
-      <div class="article-style">
-        Oral defense of the dissertation of Samuel D. Young
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          Aug 7, 2023 9:00 AM &mdash; 10:30 AM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>B10 South Atrium</span>
-        
-      </div>
-      
-
-      
-      <div>
-        
-
-  <span >
-      Samuel D. Young</span>
-      </div>
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/oral-dissertation-defense/" >
-      <img src="/talk/oral-dissertation-defense/featured_hu9ee348b4a747cc65ff1927a0d0d7588e_562138_150x0_resize_q75_h2_lanczos_3.webp" height="80" width="150"
-           alt="Oral Dissertation Defense" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/aiche-2022-thermodynamic-stability-and-anion-ordering-in-abo2n-and-abon2-perovskite-oxynitrides/" >AIChE 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          Nov 18, 2022 9:12 AM &mdash; 9:30 AM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Phoenix, AZ, USA</span>
-        
-      </div>
-      
-
-      
-      <div>
-        
-
-  <span >
-      Samuel D. Young</span>, <span >
-      Bianca Ceballos</span>, <span >
-      Amitava Banerjee</span>, <span >
-      Ghanshyam Pilania</span>, <span >
-      Bryan Goldsmith</span>
-      </div>
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/aiche-2022-thermodynamic-stability-and-anion-ordering-in-abo2n-and-abon2-perovskite-oxynitrides/" >
-      <img src="/talk/aiche-2022-thermodynamic-stability-and-anion-ordering-in-abo2n-and-abon2-perovskite-oxynitrides/featured_hu2335f1e116bf1d6ad37eca2d24e6e2fd_294273_150x0_resize_q75_h2_lanczos_3.webp" height="150" width="150"
-           alt="AIChE 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/acs-fall-2022-thermodynamic-stability-and-anion-ordering-in-abo2n-and-abon2-perovskite-oxynitrides/" >ACS Fall 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          Aug 23, 2022 10:40 AM &mdash; 11:00 AM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>McCormick Place Convention Center, Rm. W178a</span>
-        
-      </div>
-      
-
-      
-      <div>
-        
-
-  <span >
-      Samuel D. Young</span>, <span >
-      Amitava Banerjee</span>, <span >
-      Bryan R. Goldsmith</span>, <span >
-      Ghanshyam Pilania</span>
-      </div>
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/acs-fall-2022-thermodynamic-stability-and-anion-ordering-in-abo2n-and-abon2-perovskite-oxynitrides/" >
-      <img src="/talk/acs-fall-2022-thermodynamic-stability-and-anion-ordering-in-abo2n-and-abon2-perovskite-oxynitrides/featured_hu200f72250da5d123666b34bb1c37bc95_75821_150x0_resize_q75_h2_lanczos_3.webp" height="81" width="150"
-           alt="ACS Fall 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/aiche-2021-platinum-ruthenium-alloys-as-electrocatalysts-for-efficient-aqueous-nitrate-reduction/" >AIChE 2021: Platinum-Ruthenium Alloys As Electrocatalysts for Efficient Aqueous Nitrate Reduction</a>
-    </div>
-
-    
-    <a href="/talk/aiche-2021-platinum-ruthenium-alloys-as-electrocatalysts-for-efficient-aqueous-nitrate-reduction/"  class="summary-link">
-      <div class="article-style">
-        To be held in-person at the Hynes Convention Center, Sheraton Boston and Marriott Boston Copley Place over the dates of Nov. 7-11 and virtually from Nov. 15-19, the AIChE Annual Meeting is the forum for ChEs interested in innovation and professional growth. Experts will cover wide range of topics relevant to cutting-edge research, new technologies, and emerging areas in the field.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span>
-          Nov 16, 2021 4:30 PM &mdash; 4:50 PM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Boston (in-person, 7–11 Nov 2021) and Virtual (15–19 Nov 2021)</span>
-        
-      </div>
-      
-
-      
-      <div>
-        
-
-  <span >
-      Samuel D. Young</span>, <span >
-      Zixuan Wang</span>, <span >
-      Nirala Singh</span>, <span >
-      Bryan Goldsmith</span>
-      </div>
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/aiche-2021-platinum-ruthenium-alloys-as-electrocatalysts-for-efficient-aqueous-nitrate-reduction/" >
-      <img src="/talk/aiche-2021-platinum-ruthenium-alloys-as-electrocatalysts-for-efficient-aqueous-nitrate-reduction/featured_hu06c4e2db2976fc69a90819a102206494_375384_150x0_resize_q75_h2_lanczos_3.webp" height="82" width="150"
-           alt="AIChE 2021: Platinum-Ruthenium Alloys As Electrocatalysts for Efficient Aqueous Nitrate Reduction" loading="lazy">
-    </a>
-    
-  </div>
-</div>
-
-  
-
-  
-  
-  
-
-    
-    
-      
-    
-
-    
-    
-    
-    
-      
-    
-
-    
-
-    <div class="see-all">
-      <a href="/event/">
-        See all events
-        <i class="fas fa-angle-right"></i>
-      </a>
-    </div>
-  
-
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="contact" class="home-section wg-contact  "  >
-   <div class="home-section-bg " >
-     
-   </div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-            <h1 class="mb-0">Contact</h1>
-            
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-
-  <ul class="fa-ul">
-
-    
-    <li>
-      <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-      <span id="person-email"><a href="mailto:samueldy@umich.edu">samueldy@umich.edu</a></span>
-    </li>
-    
-
-    
-
-    
-    
-      
-      <li>
-        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address">1600 Huron Pkwy, Room B28-2100E, Ann Arbor, MI 48105</span>
-      </li>
-    
-
-    
-    <li>
-      <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
-      <span>Enter Building 32 (shown on map) and ask for Samuel D. Young from Room B28-2100E.</span>
-    </li>
-    
-
-    
-
-    
-
-    
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <i class="fa-li fab fa-github fa-2x" aria-hidden="true"></i>
-      <a href="https://github.com/samueldy" target="_blank" rel="noopener">GitHub Profile</a>
-    </li>
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <i class="fa-li fab fa-linkedin fa-2x" aria-hidden="true"></i>
-      <a href="https://www.linkedin.com/in/samueldyoung1/" target="_blank" rel="noopener">Connect on LinkedIn</a>
-    </li>
-    
-
-  </ul>
-
-  
-  <div class="d-none">
-    <input id="map-provider" value="mapbox">
-    <input id="map-lat" value="42.298994">
-    <input id="map-lng" value="-83.707067">
-    <input id="map-dir" value="1600 Huron Pkwy, Room B28-2100E, Ann Arbor, MI 48105">
-    <input id="map-zoom" value="15">
-    <input id="map-api-key" value="">
-  </div>
-  <div id="map"></div>
-  
-
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>
-
-
-
   </div>
 
-  <div class="page-footer">
+
+
+
+  
+
+  
+</section>
+
+  
+
+
+    </div>
+    <div class="page-footer">
+      <footer class="container mx-auto flex flex-col justify-items-center text-sm leading-6 mt-24 mb-4 text-slate-700 dark:text-slate-200">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
     
-    
-    <div class="container">
-      <footer class="site-footer">
-
-  
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-    
   
   
     
@@ -3445,8 +2517,8 @@
   
 
   
-  <p class="powered-by copyright-license-text">
-    © 2023 Samuel D. Young. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  <p class="powered-by text-center">
+    © 2025 Samuel D. Young. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -3466,7 +2538,8 @@
 
 
 
-  <p class="powered-by">
+
+  <p class="powered-by text-center">
     
     
     
@@ -3476,157 +2549,26 @@
       
       
       
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
     
   </p>
+
 </footer>
 
     </div>
-    
-  </div>
-
-      
-
-    
-    <script src="/js/vendor-bundle.min.5a3a4e7cbc7b4e121b2d29312cf8ad59.js"></script>
-
-    
-    
-    
-      
-      
-        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
-      
-
-      
-      
-
-      
-
-      
-        
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
-        
-        
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
-        
-        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
-        
-      
-
-    
-
-    
-    
-    
-      <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
-    
 
     
     
 
-    
-    
-    
-      
-      <script id="search-hit-fuse-template" type="text/x-template">
-        <div class="search-hit" id="summary-{{key}}">
-          <div class="search-hit-content">
-            <div class="search-hit-name">
-              <a href="{{relpermalink}}">{{title}}</a>
-              <div class="article-metadata search-hit-type">{{type}}</div>
-              <p class="search-hit-description">{{snippet}}</p>
-            </div>
-          </div>
-        </div>
-      </script>
-      
-        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
-      
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    
-    
-      
-      
-      
-      
-      
-      
-      
-    
-
-    
-
-    
-    
-    
-    <script id="page-data" type="application/json">{"use_headroom":false}</script>
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      
-      
-    
-    
-    <script src="/en/js/wowchemy.min.cddd4a170879f659fa86f3937dfe3b12.js"></script>
-
-    
-    
-      <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
-    
-    
-    
-    
-      
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-      <script src="/js/wowchemy-publication.b0d291ed6d27eacec233e6cf5204f99a.js" type="module"></script>
 
 
 
 
 
 
-</body>
+
+
+
+
+  </body>
 </html>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Samuel D. Young</title>
+    <title>All Papers | Samuel D. Young - Research Profile</title>
     <link>https://samueldy.github.io/publication/</link>
       <atom:link href="https://samueldy.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Aug 2023 10:23:24 -0400</lastBuildDate>
+    <description>All Papers</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Aug 2023 10:23:24 -0400</lastBuildDate>
     <image>
-      <url>https://samueldy.github.io/media/icon_huaec7442c2e3b07da09f38a7603f64ea3_48671_512x512_fill_lanczos_center_3.png</url>
-      <title>Publications</title>
+      <url>https://samueldy.github.io/media/icon_hu_fc756c660f29f51e.png</url>
+      <title>All Papers</title>
       <link>https://samueldy.github.io/publication/</link>
     </image>
     
