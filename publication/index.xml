@@ -5,12 +5,20 @@
     <link>https://samueldy.github.io/publication/</link>
       <atom:link href="https://samueldy.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>All Papers</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Aug 2023 10:23:24 -0400</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Mar 2025 00:00:00 -0400</lastBuildDate>
     <image>
       <url>https://samueldy.github.io/media/icon_hu_fc756c660f29f51e.png</url>
       <title>All Papers</title>
       <link>https://samueldy.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Exploring deep-learning and equivariant machine-learning models for molecular dynamics of aqueous Li–Mn–Cl battery electrolytes</title>
+      <link>https://samueldy.github.io/publication/ml-md-limncl-electrolytes/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 -0400</pubDate>
+      <guid>https://samueldy.github.io/publication/ml-md-limncl-electrolytes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Written Dissertation</title>
@@ -41,7 +49,7 @@ Supporting information is available for free &lt;a href=&#34;https://pubs.acs.or
       <link>https://samueldy.github.io/publication/jpcc-perovskite-nrr/</link>
       <pubDate>Wed, 03 Aug 2022 15:31:15 -0400</pubDate>
       <guid>https://samueldy.github.io/publication/jpcc-perovskite-nrr/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Selected as an ACS Editors&amp;rsquo; Choice article!&lt;/strong&gt; Publicly available to read for free through the end of Jan 2023 at &lt;a href=&#34;https://pubs.acs.org/doi/full/10.1021/acs.jpcc.2c02816&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pubs.acs.org/doi/full/10.1021/acs.jpcc.2c02816&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Selected as an ACS Editors&amp;rsquo; Choice article!&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -58,8 +66,7 @@ Supporting information is available for free &lt;a href=&#34;https://pubs.acs.or
       <link>https://samueldy.github.io/publication/trchem-perovskites-tunable/</link>
       <pubDate>Sat, 24 Jul 2021 16:53:43 -0600</pubDate>
       <guid>https://samueldy.github.io/publication/trchem-perovskites-tunable/</guid>
-      <description>&lt;p&gt;Now available online. You can &lt;a href=&#34;https://authors.elsevier.com/a/1dTsp_wuN3S6Al&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read this article for free&lt;/a&gt; until 15 Sep 2021.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>

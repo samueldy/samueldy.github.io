@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Report | Samuel D. Young - Research Profile</title>
+    <link>https://samueldy.github.io/publication_types/report/</link>
+      <atom:link href="https://samueldy.github.io/publication_types/report/index.xml" rel="self" type="application/rss+xml" />
+    <description>Report</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Mar 2025 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://samueldy.github.io/media/icon_hu_fc756c660f29f51e.png</url>
+      <title>Report</title>
+      <link>https://samueldy.github.io/publication_types/report/</link>
+    </image>
+    
+    <item>
+      <title>Exploring deep-learning and equivariant machine-learning models for molecular dynamics of aqueous Li–Mn–Cl battery electrolytes</title>
+      <link>https://samueldy.github.io/publication/ml-md-limncl-electrolytes/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 -0400</pubDate>
+      <guid>https://samueldy.github.io/publication/ml-md-limncl-electrolytes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

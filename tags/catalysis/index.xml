@@ -5,12 +5,28 @@
     <link>https://samueldy.github.io/tags/catalysis/</link>
       <atom:link href="https://samueldy.github.io/tags/catalysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Catalysis</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 18 Nov 2022 09:12:00 -0700</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 Oct 2023 13:00:00 -0400</lastBuildDate>
     <image>
       <url>https://samueldy.github.io/media/icon_hu_fc756c660f29f51e.png</url>
       <title>Catalysis</title>
       <link>https://samueldy.github.io/tags/catalysis/</link>
     </image>
+    
+    <item>
+      <title>Heterogeneous Electrocatalysts for Aqueous Nitrate Reduction and Nitrogen Chemistry</title>
+      <link>https://samueldy.github.io/talk/arl-dpf-seminar_12-oct-2023/</link>
+      <pubDate>Thu, 12 Oct 2023 13:00:00 -0400</pubDate>
+      <guid>https://samueldy.github.io/talk/arl-dpf-seminar_12-oct-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oral Dissertation Defense</title>
+      <link>https://samueldy.github.io/talk/dissertation-defense/</link>
+      <pubDate>Mon, 07 Aug 2023 09:00:00 -0400</pubDate>
+      <guid>https://samueldy.github.io/talk/dissertation-defense/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AIChE 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides</title>
@@ -21,11 +37,55 @@
     </item>
     
     <item>
+      <title>ACS Fall 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides</title>
+      <link>https://samueldy.github.io/talk/acs-fall-2022/</link>
+      <pubDate>Tue, 23 Aug 2022 10:40:00 -0500</pubDate>
+      <guid>https://samueldy.github.io/talk/acs-fall-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Metal Oxynitrides for the Electrocatalytic Reduction of Nitrogen to Ammonia</title>
       <link>https://samueldy.github.io/publication/jpcc-perovskite-nrr/</link>
       <pubDate>Wed, 03 Aug 2022 15:31:15 -0400</pubDate>
       <guid>https://samueldy.github.io/publication/jpcc-perovskite-nrr/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Selected as an ACS Editors&amp;rsquo; Choice article!&lt;/strong&gt; Publicly available to read for free through the end of Jan 2023 at &lt;a href=&#34;https://pubs.acs.org/doi/full/10.1021/acs.jpcc.2c02816&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://pubs.acs.org/doi/full/10.1021/acs.jpcc.2c02816&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Selected as an ACS Editors&amp;rsquo; Choice article!&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AIChE 2021: Platinum-Ruthenium Alloys As Electrocatalysts for Efficient Aqueous Nitrate Reduction</title>
+      <link>https://samueldy.github.io/talk/aiche-2021/</link>
+      <pubDate>Tue, 16 Nov 2021 16:30:00 -0500</pubDate>
+      <guid>https://samueldy.github.io/talk/aiche-2021/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /talk/aiche-2021/2021-11-16-20-42-14_hu_23d2a286a175efe4.webp 400w,
+               /talk/aiche-2021/2021-11-16-20-42-14_hu_f875a1389ed1cbd3.webp 760w,
+               /talk/aiche-2021/2021-11-16-20-42-14_hu_da1ce5716dad03c2.webp 1200w&#34;
+               src=&#34;https://samueldy.github.io/talk/aiche-2021/2021-11-16-20-42-14_hu_23d2a286a175efe4.webp&#34;
+               width=&#34;720&#34;
+               height=&#34;604&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -38,12 +98,27 @@
     </item>
     
     <item>
+      <title>ACS Fall 2021: Rhodium Sulfide Electrocatalysts for Electrocatalytic Nitrate Reduction</title>
+      <link>https://samueldy.github.io/talk/acs-fall-2021/</link>
+      <pubDate>Thu, 26 Aug 2021 15:00:00 -0400</pubDate>
+      <guid>https://samueldy.github.io/talk/acs-fall-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Perovskite Oxynitrides as Tunable Materials for Electrocatalytic Nitrogen Reduction to Ammonia</title>
       <link>https://samueldy.github.io/publication/trchem-perovskites-tunable/</link>
       <pubDate>Sat, 24 Jul 2021 16:53:43 -0600</pubDate>
       <guid>https://samueldy.github.io/publication/trchem-perovskites-tunable/</guid>
-      <description>&lt;p&gt;Now available online. You can &lt;a href=&#34;https://authors.elsevier.com/a/1dTsp_wuN3S6Al&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read this article for free&lt;/a&gt; until 15 Sep 2021.&lt;/p&gt;
-</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACS Spring 2021: Platinum-Ruthenium Alloys as Electrocatalysts for Efficient Aqueous Nitrate Reduction</title>
+      <link>https://samueldy.github.io/talk/acs-spring-2021/</link>
+      <pubDate>Tue, 13 Apr 2021 14:40:00 -0600</pubDate>
+      <guid>https://samueldy.github.io/talk/acs-spring-2021/</guid>
+      <description></description>
     </item>
     
     <item>

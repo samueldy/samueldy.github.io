@@ -5,12 +5,80 @@
     <link>https://samueldy.github.io/tags/no3rr/</link>
       <atom:link href="https://samueldy.github.io/tags/no3rr/index.xml" rel="self" type="application/rss+xml" />
     <description>No3rr</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Aug 2020 11:41:18 -0400</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 Oct 2023 13:00:00 -0400</lastBuildDate>
     <image>
       <url>https://samueldy.github.io/media/icon_hu_fc756c660f29f51e.png</url>
       <title>No3rr</title>
       <link>https://samueldy.github.io/tags/no3rr/</link>
     </image>
+    
+    <item>
+      <title>Heterogeneous Electrocatalysts for Aqueous Nitrate Reduction and Nitrogen Chemistry</title>
+      <link>https://samueldy.github.io/talk/arl-dpf-seminar_12-oct-2023/</link>
+      <pubDate>Thu, 12 Oct 2023 13:00:00 -0400</pubDate>
+      <guid>https://samueldy.github.io/talk/arl-dpf-seminar_12-oct-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oral Dissertation Defense</title>
+      <link>https://samueldy.github.io/talk/dissertation-defense/</link>
+      <pubDate>Mon, 07 Aug 2023 09:00:00 -0400</pubDate>
+      <guid>https://samueldy.github.io/talk/dissertation-defense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AIChE 2021: Platinum-Ruthenium Alloys As Electrocatalysts for Efficient Aqueous Nitrate Reduction</title>
+      <link>https://samueldy.github.io/talk/aiche-2021/</link>
+      <pubDate>Tue, 16 Nov 2021 16:30:00 -0500</pubDate>
+      <guid>https://samueldy.github.io/talk/aiche-2021/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /talk/aiche-2021/2021-11-16-20-42-14_hu_23d2a286a175efe4.webp 400w,
+               /talk/aiche-2021/2021-11-16-20-42-14_hu_f875a1389ed1cbd3.webp 760w,
+               /talk/aiche-2021/2021-11-16-20-42-14_hu_da1ce5716dad03c2.webp 1200w&#34;
+               src=&#34;https://samueldy.github.io/talk/aiche-2021/2021-11-16-20-42-14_hu_23d2a286a175efe4.webp&#34;
+               width=&#34;720&#34;
+               height=&#34;604&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ACS Fall 2021: Rhodium Sulfide Electrocatalysts for Electrocatalytic Nitrate Reduction</title>
+      <link>https://samueldy.github.io/talk/acs-fall-2021/</link>
+      <pubDate>Thu, 26 Aug 2021 15:00:00 -0400</pubDate>
+      <guid>https://samueldy.github.io/talk/acs-fall-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACS Spring 2021: Platinum-Ruthenium Alloys as Electrocatalysts for Efficient Aqueous Nitrate Reduction</title>
+      <link>https://samueldy.github.io/talk/acs-spring-2021/</link>
+      <pubDate>Tue, 13 Apr 2021 14:40:00 -0600</pubDate>
+      <guid>https://samueldy.github.io/talk/acs-spring-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Increasing Electrocatalytic Nitrate Reduction Activity by Controlling Adsorption through PtRu Alloying</title>

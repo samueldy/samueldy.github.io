@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cornell | Samuel D. Young - Research Profile</title>
+    <link>https://samueldy.github.io/tags/cornell/</link>
+      <atom:link href="https://samueldy.github.io/tags/cornell/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cornell</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Jun 2015 00:28:32 -0400</lastBuildDate>
+    <image>
+      <url>https://samueldy.github.io/media/icon_hu_fc756c660f29f51e.png</url>
+      <title>Cornell</title>
+      <link>https://samueldy.github.io/tags/cornell/</link>
+    </image>
+    
+    <item>
+      <title>Conductivity and Microstructure of Combinatorially Sputter-Deposited Ta–Ti–Al Nitride Thin Films</title>
+      <link>https://samueldy.github.io/publication/combi-nitrides/</link>
+      <pubDate>Wed, 03 Jun 2015 00:28:32 -0400</pubDate>
+      <guid>https://samueldy.github.io/publication/combi-nitrides/</guid>
+      <description>&lt;p&gt;Supporting information available &lt;a href=&#34;https://pubs.acs.org/doi/suppl/10.1021/cm504599s/suppl_file/cm504599s_si_001.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

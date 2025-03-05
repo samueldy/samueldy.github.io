@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lanl | Samuel D. Young - Research Profile</title>
+    <link>https://samueldy.github.io/tags/lanl/</link>
+      <atom:link href="https://samueldy.github.io/tags/lanl/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lanl</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Jul 2023 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://samueldy.github.io/media/icon_hu_fc756c660f29f51e.png</url>
+      <title>Lanl</title>
+      <link>https://samueldy.github.io/tags/lanl/</link>
+    </image>
+    
+    <item>
+      <title>Thermodynamic Stability and Anion Ordering of Perovskite Oxynitrides</title>
+      <link>https://samueldy.github.io/publication/chemater-pon-article/</link>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 -0400</pubDate>
+      <guid>https://samueldy.github.io/publication/chemater-pon-article/</guid>
+      <description>&lt;p&gt;The version of record is located &lt;a href=&#34;https://pubs.acs.org/doi/10.1021/acs.chemmater.3c00943&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.
+Supporting information is available for free &lt;a href=&#34;https://pubs.acs.org/doi/10.1021/acs.chemmater.3c00943?goto=supporting-info&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AIChE 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides</title>
+      <link>https://samueldy.github.io/talk/aiche-2022/</link>
+      <pubDate>Fri, 18 Nov 2022 09:12:00 -0700</pubDate>
+      <guid>https://samueldy.github.io/talk/aiche-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACS Fall 2022: Thermodynamic Stability and Anion Ordering in ABO2N and ABON2 Perovskite Oxynitrides</title>
+      <link>https://samueldy.github.io/talk/acs-fall-2022/</link>
+      <pubDate>Tue, 23 Aug 2022 10:40:00 -0500</pubDate>
+      <guid>https://samueldy.github.io/talk/acs-fall-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metal Oxynitrides for the Electrocatalytic Reduction of Nitrogen to Ammonia</title>
+      <link>https://samueldy.github.io/publication/jpcc-perovskite-nrr/</link>
+      <pubDate>Wed, 03 Aug 2022 15:31:15 -0400</pubDate>
+      <guid>https://samueldy.github.io/publication/jpcc-perovskite-nrr/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Selected as an ACS Editors&amp;rsquo; Choice article!&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Perovskite Oxynitrides as Tunable Materials for Electrocatalytic Nitrogen Reduction to Ammonia</title>
+      <link>https://samueldy.github.io/publication/trchem-perovskites-tunable/</link>
+      <pubDate>Sat, 24 Jul 2021 16:53:43 -0600</pubDate>
+      <guid>https://samueldy.github.io/publication/trchem-perovskites-tunable/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
